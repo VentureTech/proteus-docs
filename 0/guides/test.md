@@ -1,7 +1,3 @@
----
-title: The title is set in the "front matter"
----
-
 
 
 # Test markdown
