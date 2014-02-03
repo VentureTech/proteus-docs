@@ -21,3 +21,9 @@ Header | Header 2
 -------|---------
 Cell 1 | Cell 2
 
+
+{% highlight scala %}
+object Hello extends App {
+  println("Hello world!")
+}
+{% endhighlight %}
