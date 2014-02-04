@@ -252,10 +252,7 @@ int getValueAndIncrement(String s)
 ```
 
 7. Abstraction Tradeoffs
-
-This exercise requires you to think about the approach to a problem without writing any code.
-
-Suppose you recently did some work for a client that involved reading CSV files and processing them, outputting the rows in a certain order. For this project, you wrote all the code yourself. A new project also requires you to read CSV files and process them, outputting the rows in a certain order, but the ordering is different and the set of columns is different.  The file format for the new project is different also; some of the data are escaped.  The new project is small and needs to be done as quickly as possible.
+This exercise requires you to think about the approach to a problem without writing any code.  Suppose you recently did some work for a client that involved reading CSV files and processing them, outputting the rows in a certain order. For this project, you wrote all the code yourself. A new project also requires you to read CSV files and process them, outputting the rows in a certain order, but the ordering is different and the set of columns is different.  The file format for the new project is different also; some of the data are escaped.  The new project is small and needs to be done as quickly as possible.
 
     1. How would you implement this second project, assuming time is short and you don't know whether or not you'll be asked to do similar future projects?  Would you use a particular design pattern, reuse code, or write code from scratch?  Describe your approach in a few sentences.
     2. What if you have a little more time, and you know you'll need to process more files in the future the same way, but with different columns and different specification for how to order the output?  Would your approach be the same, or how would it be different?
