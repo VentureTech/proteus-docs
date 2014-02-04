@@ -128,7 +128,6 @@ But not these:
 String d = last(new ArrayList<Integer>());
 String e = last(new ArrayList<Object>());
 ```
-
     2. Write a method append(...) that takes an object x and a list y, and returns a new list that appends x to the end of y.  These should compile:
 ```java
 append(new String(), new ArrayList<String>());
@@ -137,7 +136,6 @@ But not these:
 append(Integer.valueOf(0), new ArrayList<String>());
 append(new Object(), new ArrayList<String>()); // can’t have objects polluting our List<String>
 ```
-
     3. Add type parameters to the method signatures of "sum" and "appendOne" so that the methods and invocations compile except for the commented calls.  Note that `Integer` and `Double` both extend `Number`.
 ```java
 public static double sum(List list) {  // Add type parameter to List
