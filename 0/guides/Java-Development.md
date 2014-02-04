@@ -150,11 +150,9 @@ public static double sum(List list) {  // Add type parameter to List
     }
     return sum;
 }
-
 public static void appendOne(List list) {  // Add type parameter to List
     list.add(1);
 }
-    
 public static void main(String[] args) {
     sum(new ArrayList<Integer>());
     sum(new ArrayList<Double>());
@@ -191,7 +189,6 @@ int divide(int a, int b)
 {
     return a / b;
 }
-
 /**
  * Computes the Fibonacci series.  For n >= 2, calls itself twice (on n-1 and n-2).
  * @param n a number
@@ -231,8 +228,6 @@ void read(File file, char[] buf)
     {
     }
 }
-
-
 // Note especially the stated precondition.
 /**
  * Converts a String to an int and adds one.  Assumes the argument is parseable.
