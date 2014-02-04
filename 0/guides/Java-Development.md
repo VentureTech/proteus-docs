@@ -167,8 +167,8 @@ For an object of the following class, your method should print `foo`.
 
 ```java
 class MyClass {
-     @Test void foo() { System.out.println(“foo”); }
-     void bar() { System.out.println(“bar”); }
+     @Test void foo() { System.out.println("foo"); }
+     void bar() { System.out.println("bar"); }
 }
 ```
 
@@ -197,7 +197,7 @@ int divide(int a, int b)
 int fibonacci(int n)
 {
     if(n < 0) 
-        System.err.println(“Invalid n: “ + n);
+        System.err.println("Invalid n: " + n);
     if(n < 2) 
         return n 
     else 
@@ -244,7 +244,7 @@ int getValueAndIncrement(String s)
     }
     catch(NumberFormatException ex)
     {
-        _logger.info(“Error parsing number: “ + s);
+        _logger.info("Error parsing number: " + s);
         return -1;
     }
 } 
