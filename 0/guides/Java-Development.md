@@ -260,3 +260,4 @@ Suppose you recently did some work for a client that involved reading CSV files 
     1. How would you implement this second project, assuming time is short and you don't know whether or not you'll be asked to do similar future projects?  Would you use a particular design pattern, reuse code, or write code from scratch?  Describe your approach in a few sentences.
     2. What if you have a little more time, and you know you'll need to process more files in the future the same way, but with different columns and different specification for how to order the output?  Would your approach be the same, or how would it be different?
 
+ 
