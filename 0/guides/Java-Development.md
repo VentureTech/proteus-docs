@@ -120,62 +120,62 @@ The key of this exercise is this requirement: Use polymorphism to separate opera
 3. Generics
 Use type parameters (generics) for this exercise.  The method signatures are the key feature of the exercise.
     1. Write a method last(...) that takes a list of arbitrary objects and returns the last element.  These calls should compile: 
-    ```java
-    String a = last(new ArrayList<String>());
-    Integer b = last(new ArrayList<Integer>());
-    Object c = last(new ArrayList<String>());
-    But not these:
-    String d = last(new ArrayList<Integer>());
-    String e = last(new ArrayList<Object>());
-    ```
+        ```java
+String a = last(new ArrayList<String>());
+Integer b = last(new ArrayList<Integer>());
+Object c = last(new ArrayList<String>());
+But not these:
+String d = last(new ArrayList<Integer>());
+String e = last(new ArrayList<Object>());
+        ```
     2. Write a method append(...) that takes an object x and a list y, and returns a new list that appends x to the end of y.  These should compile: 
-    ```java
-    append(new String(), new ArrayList<String>());
-    append(new String(), new ArrayList<Object>());
-    But not these:
-    append(Integer.valueOf(0), new ArrayList<String>());
-    append(new Object(), new ArrayList<String>()); // can’t have objects polluting our List<String>
-    ```
+        ```java
+append(new String(), new ArrayList<String>());
+append(new String(), new ArrayList<Object>());
+But not these:
+append(Integer.valueOf(0), new ArrayList<String>());
+append(new Object(), new ArrayList<String>()); // can’t have objects polluting our List<String>
+        ```
     3. Add type parameters to the method signatures of "sum" and "appendOne" so that the methods and invocations compile except for the commented calls.  Note that `Integer` and `Double` both extend `Number`. 
-    ```java
-    public static double sum(List list) {  // Add type parameter to List
-        double sum = 0;
-        for(Number n : list){
-            sum += n.doubleValue();
-        }
-        return sum;
+        ```java
+public static double sum(List list) {  // Add type parameter to List
+    double sum = 0;
+    for(Number n : list){
+	sum += n.doubleValue();
     }
+    return sum;
+}
+
+public static void appendOne(List list) {  // Add type parameter to List
+    list.add(1);
+}
     
-    public static void appendOne(List list) {  // Add type parameter to List
-        list.add(1);
-    }
-        
-    public static void main(String[] args) {
-        sum(new ArrayList<Integer>());
-        sum(new ArrayList<Double>());
-        //sum(new ArrayList<Object>());  // should fail to compile
-        appendOne(new ArrayList<Integer>());
-        appendOne(new ArrayList<Object>());
-        //appendOne(new ArrayList<Double>()); // should fail to compile
-    }
-    ```
+public static void main(String[] args) {
+    sum(new ArrayList<Integer>());
+    sum(new ArrayList<Double>());
+    //sum(new ArrayList<Object>());  // should fail to compile
+    appendOne(new ArrayList<Integer>());
+    appendOne(new ArrayList<Object>());
+    //appendOne(new ArrayList<Double>()); // should fail to compile
+}
+        ```
 
 4. Reflection & Annotations
 Write a method annotation `@Test`.  (The Oracle Annotations trail describes how to do this.  For this exercises, you will also need to explore "Annotations That Apply to Other Annotations" section of the trail.)  Write a method that takes an arbitrary object and finds zero-argument methods on that object with the annotation `@Test` and executes them.
 For an object of the following class, your method should print `foo`.
 
-```java
+    ```java
 class MyClass {
      @Test void foo() { System.out.println("foo"); }
      void bar() { System.out.println("bar"); }
 }
-```
+    ```
 
 5. API Contracts
     1. Add Javadoc to your calculator program.
     2. What is wrong with the Javadoc in the following methods?  Rewrite the Javadoc, correcting any errors.
 
-```java
+    ```java
 /**
  * Divides two numbers.
  * @param a dividend
@@ -202,7 +202,7 @@ int fibonacci(int n)
     else 
         return fibonacci(n-1) + fibonacci(n-2);    
 }
-```
+    ```
 
 6. Exception Handling
 Add exception handling to your program for the following cases:
@@ -210,7 +210,7 @@ Add exception handling to your program for the following cases:
     2. An operation fails due to invalid arguments
     3. What is wrong with the code in the following methods?  Assume the Javadoc is correct.  Rewrite the code to match the Javadoc and correct any problems.
 
-```java
+    ```java
 /**
  * Reads a file into a buffer.
  * @param file the file
@@ -247,7 +247,7 @@ int getValueAndIncrement(String s)
         return -1;
     }
 } 
-```
+    ```
 
 7. Abstraction Tradeoffs
 This exercise requires you to think about the approach to a problem without writing any code.  Suppose you recently did some work for a client that involved reading CSV files and processing them, outputting the rows in a certain order. For this project, you wrote all the code yourself. A new project also requires you to read CSV files and process them, outputting the rows in a certain order, but the ordering is different and the set of columns is different.  The file format for the new project is different also; some of the data are escaped.  The new project is small and needs to be done as quickly as possible.
