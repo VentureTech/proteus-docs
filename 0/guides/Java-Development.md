@@ -146,7 +146,7 @@ append(new Object(), new ArrayList<String>()); // can’t have objects polluting
 public static double sum(List list) {  // Add type parameter to List
     double sum = 0;
     for(Number n : list){
-	sum += n.doubleValue();
+	    sum += n.doubleValue();
     }
     return sum;
 }
@@ -169,8 +169,8 @@ For an object of the following class, your method should print `foo`.
 
     ```java
 class MyClass {
-     @Test void foo() { System.out.println("foo"); }
-     void bar() { System.out.println("bar"); }
+    @Test void foo() { System.out.println("foo"); }
+    void bar() { System.out.println("bar"); }
 }
     ```
 
