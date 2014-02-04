@@ -3,7 +3,7 @@ title: Java Development
 ---
 
 # Overview
-This unit introduces advanced Java features and idioms, Linux basics, and some good software engineering practices.  Use the given references, plus any others you find, to learn about the topics mentioned here.  *Explore the first part of each section fully (up to “Other References”), and peruse the Other References sections as needed.*  There is *much* information available about Java and software engineering; focus especially (but not only) on the information you need to complete the exercises at the end.
+This unit introduces advanced Java features and idioms, Linux basics, and some good software engineering practices.  Use the given references, plus any others you find, to learn about the topics mentioned here.  *Explore the first part of each section fully (up to "Other References"), and peruse the Other References sections as needed.*  There is *much* information available about Java and software engineering; focus especially (but not only) on the information you need to complete the exercises at the end.
 
 # Environment
 While you could theoretically develop Java applications on any platform, you will find it helpful to use the same environment as other VentureTech engineers.
@@ -25,3 +25,13 @@ You may use any IDE, but other engineers at VentureTech currently use IntelliJ I
 * [Linux Tutorial] (http://www.tldp.org/LDP/gs/node5.html)
 * [Unix for Beginners] (http://www.ee.surrey.ac.uk/Teaching/Unix/)
 * [IntelliJ Documentation] (http://www.jetbrains.com/idea/documentation/)
+
+# Java
+
+[Oracle's site] (http://docs.oracle.com/javase/tutorial/index.html) has a wealth of first-party documentation on Java.  
+Many of these "trails" cover topics that will not be relevant to Proteus development, like GUIs, Sound, and RMI.  We recommend you focus on the "Trails Covering the Basics" and the trails listed below.
+
+* [Polymorphism] (http://docs.oracle.com/javase/tutorial/java/IandI/index.html)
+* [Generics] http://docs.oracle.com/javase/tutorial/java/generics/
+* [Annotations] http://docs.oracle.com/javase/tutorial/java/annotations/
+* [Reflection] http://docs.oracle.com/javase/tutorial/reflect/index.html
