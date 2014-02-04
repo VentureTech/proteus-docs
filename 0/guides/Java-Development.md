@@ -51,7 +51,7 @@ If a particular concept is not clear to you as explained in the standard Java tu
 
 
 # Software Engineering
-This topic will require you to think critically about the articles you read.  Writing software always involves judgment calls about the best way to approach a problem.  Often the "best" approach has some disadvantages compared to other approaches, but it is "best" because its advantages match up the best to solve the problem at hand.  Part of good engineering is learning to see, understand, and predict these tradeoffs.  The references provided in this section are about judgment and rules of thumb; not every "rule" will apply 100% of the time.  Still, it is important to learn from other programmers’ experiences as best we can.  For example:
+This topic will require you to think critically about the articles you read.  Writing software always involves judgment calls about the best way to approach a problem.  Often the "best" approach has some disadvantages compared to other approaches, but it is "best" because its advantages match up the best to solve the problem at hand.  Part of good engineering is learning to see, understand, and predict these tradeoffs.  The references provided in this section are about judgment and rules of thumb; not every "rule" will apply 100% of the time.  Still, it is important to learn from other programmers' experiences as best we can.  For example:
 
 "Beware instanceof operator"
 http://javapractices.com/topic/TopicAction.do?Id=31
@@ -77,7 +77,7 @@ Method preconditions, postconditions, and invariants should be clearly documente
 ### Abstraction Tradeoffs
 Deciding the proper level of abstraction for a piece of software is difficult.  Which elements should be hard-coded, and which should be parameters?  Too many hard-coded elements leads to inflexible code, while too many parameters leads to convoluted and difficult-to-understand code.  But inflexible code might be acceptable for a one-off (throwaway) piece, while more parameters might be necessary for a reusable API.  Duplicated code is usually bad for maintenance in a reusable library, but it might be more clear than an abstraction in a simple application script.
 
-As you read these articles, notice how there is some tension between "Don’t Repeat Yourself" and "Use Before Reuse".  
+As you read these articles, notice how there is some tension between "Don't Repeat Yourself" and "Use Before Reuse".  
 * [Don't Repeat Yourself] (http://programmer.97things.oreilly.com/wiki/index.php/Don't_Repeat_Yourself)
 * [Simplicity before generality, use before reuse] (http://97things.oreilly.com/wiki/index.php/Simplicity_before_generality,_use_before_reuse)
 
