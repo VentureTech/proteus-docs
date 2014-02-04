@@ -32,6 +32,21 @@ You may use any IDE, but other engineers at VentureTech currently use IntelliJ I
 Many of these "trails" cover topics that will not be relevant to Proteus development, like GUIs, Sound, and RMI.  We recommend you focus on the "Trails Covering the Basics" and the trails listed below.
 
 * [Polymorphism] (http://docs.oracle.com/javase/tutorial/java/IandI/index.html)
-* [Generics] http://docs.oracle.com/javase/tutorial/java/generics/
-* [Annotations] http://docs.oracle.com/javase/tutorial/java/annotations/
-* [Reflection] http://docs.oracle.com/javase/tutorial/reflect/index.html
+* [Generics] (http://docs.oracle.com/javase/tutorial/java/generics/)
+* [Annotations] (http://docs.oracle.com/javase/tutorial/java/annotations/)
+* [Reflection] (http://docs.oracle.com/javase/tutorial/reflect/index.html)
+
+## Other References
+
+If a particular concept is not clear to you as explained in the standard Java tutorials, or you want to explore it from a different angle, try some of these.  You can also just search the web; most of these concepts have been presented a number of times.
+
+* [free-programming-books list] (https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
+* [IBM DeveloperWorks Library] (http://www.ibm.com/developerworks/java/library/)
+* [TutorialsPoint] (http://www.tutorialspoint.com/javaexamples/)
+* [Data Structures and Algorithms with Object-Oriented Design Patterns in Java] (http://www.brpreiss.com/books/opus5/html/page9.html)
+* [Think Java] (http://greenteapress.com/thinkapjava/html/index.html)
+* [Introduction to Programming Using Java, Sixth Edition] (http://math.hws.edu/javanotes/)
+* [Learning Java] (http://chimera.labs.oreilly.com/books/1234000001805/index.html)
+* [Introduction to Programming in Java] (http://introcs.cs.princeton.edu/java/home/)
+
+
