@@ -114,7 +114,7 @@ Implement these operators:
 Binary:  +  -  *  /  
 Unary:  `sin`  `cos`  `tan`  `sqrt`
 
-The key of this exercise is this requirement: Use polymorphism to separate operator implementation from the core program.  Create an interface with a method that takes a `Stack<Double>` and performs some operation on it.  Then implement the interface once for each operator.  The code that accepts user input should find the correct operator implementation (from some collection of available operations) and delegate to it.  Do not use a giant switch or if-else block. 
+The key of this exercise is this requirement: Use polymorphism to separate operator implementation from the core program.  Create an interface with a method that takes a ``Stack<Double>`` and performs some operation on it.  Then implement the interface once for each operator.  The code that accepts user input should find the correct operator implementation (from some collection of available operations) and delegate to it.  Do not use a giant switch or if-else block. 
 
 
 3. Generics
