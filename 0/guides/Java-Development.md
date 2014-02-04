@@ -104,7 +104,7 @@ For this exercise, create a text-only Reverse Polish notation (postfix notation)
 (http://www.meta-calculator.com/learning-lab/reverse-polish-notation-calculator.php)
 Additional information in [Wikipedia] (http://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
-Your calculator will wait for the user to enter a line of text and split it into tokens delimited by whitespace.  Tokens may be floating point numbers or operator strings.  Numbers are pushed onto a Stack<Double>, and operators work on elements at the top of the stack.  When the user enters a blank line, the program terminates.
+Your calculator will wait for the user to enter a line of text and split it into tokens delimited by whitespace.  Tokens may be floating point numbers or operator strings.  Numbers are pushed onto a `Stack<Double>`, and operators work on elements at the top of the stack.  When the user enters a blank line, the program terminates.
 
 For example, the user enters:
 `2 5 + 3 *`
