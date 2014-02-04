@@ -1,3 +1,7 @@
+---
+title: Java Development
+---
+
 # Overview
 This unit introduces advanced Java features and idioms, Linux basics, and some good software engineering practices.  Use the given references, plus any others you find, to learn about the topics mentioned here.  *Explore the first part of each section fully (up to “Other References”), and peruse the Other References sections as needed.*  There is *much* information available about Java and software engineering; focus especially (but not only) on the information you need to complete the exercises at the end.
 
