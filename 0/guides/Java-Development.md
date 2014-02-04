@@ -119,43 +119,46 @@ The key of this exercise is this requirement: Use polymorphism to separate opera
 
 3. Generics
 Use type parameters (generics) for this exercise.  The method signatures are the key feature of the exercise.
-    1. Write a method last(...) that takes a list of arbitrary objects and returns the last element.  These calls should compile: ```java
-String a = last(new ArrayList<String>());
-Integer b = last(new ArrayList<Integer>());
-Object c = last(new ArrayList<String>());
-But not these:
-String d = last(new ArrayList<Integer>());
-String e = last(new ArrayList<Object>());
-```
-    2. Write a method append(...) that takes an object x and a list y, and returns a new list that appends x to the end of y.  These should compile: ```java
-append(new String(), new ArrayList<String>());
-append(new String(), new ArrayList<Object>());
-But not these:
-append(Integer.valueOf(0), new ArrayList<String>());
-append(new Object(), new ArrayList<String>()); // can’t have objects polluting our List<String>
-```
-    3. Add type parameters to the method signatures of "sum" and "appendOne" so that the methods and invocations compile except for the commented calls.  Note that `Integer` and `Double` both extend `Number`. ```java
-public static double sum(List list) {  // Add type parameter to List
-    double sum = 0;
-    for(Number n : list){
-        sum += n.doubleValue();
+    1. Write a method last(...) that takes a list of arbitrary objects and returns the last element.  These calls should compile: 
+    ```java
+    String a = last(new ArrayList<String>());
+    Integer b = last(new ArrayList<Integer>());
+    Object c = last(new ArrayList<String>());
+    But not these:
+    String d = last(new ArrayList<Integer>());
+    String e = last(new ArrayList<Object>());
+    ```
+    2. Write a method append(...) that takes an object x and a list y, and returns a new list that appends x to the end of y.  These should compile: 
+    ```java
+    append(new String(), new ArrayList<String>());
+    append(new String(), new ArrayList<Object>());
+    But not these:
+    append(Integer.valueOf(0), new ArrayList<String>());
+    append(new Object(), new ArrayList<String>()); // can’t have objects polluting our List<String>
+    ```
+    3. Add type parameters to the method signatures of "sum" and "appendOne" so that the methods and invocations compile except for the commented calls.  Note that `Integer` and `Double` both extend `Number`. 
+    ```java
+    public static double sum(List list) {  // Add type parameter to List
+        double sum = 0;
+        for(Number n : list){
+            sum += n.doubleValue();
+        }
+        return sum;
     }
-    return sum;
-}
-
-public static void appendOne(List list) {  // Add type parameter to List
-    list.add(1);
-}
     
-public static void main(String[] args) {
-    sum(new ArrayList<Integer>());
-    sum(new ArrayList<Double>());
-    //sum(new ArrayList<Object>());  // should fail to compile
-    appendOne(new ArrayList<Integer>());
-    appendOne(new ArrayList<Object>());
-    //appendOne(new ArrayList<Double>()); // should fail to compile
-}
-```
+    public static void appendOne(List list) {  // Add type parameter to List
+        list.add(1);
+    }
+        
+    public static void main(String[] args) {
+        sum(new ArrayList<Integer>());
+        sum(new ArrayList<Double>());
+        //sum(new ArrayList<Object>());  // should fail to compile
+        appendOne(new ArrayList<Integer>());
+        appendOne(new ArrayList<Object>());
+        //appendOne(new ArrayList<Double>()); // should fail to compile
+    }
+    ```
 
 4. Reflection & Annotations
 Write a method annotation `@Test`.  (The Oracle Annotations trail describes how to do this.  For this exercises, you will also need to explore "Annotations That Apply to Other Annotations" section of the trail.)  Write a method that takes an arbitrary object and finds zero-argument methods on that object with the annotation `@Test` and executes them.
