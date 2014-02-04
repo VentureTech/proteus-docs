@@ -21,6 +21,6 @@ Follow this primer and do the tasks in it to learn the basics of working in Linu
 You may use any IDE, but other engineers at VentureTech currently use IntelliJ IDEA, so that will probably be the best option.
 
 ## Other References
-Linux Tutorial  http://www.tldp.org/LDP/gs/node5.html
-Unix for Beginners http://www.ee.surrey.ac.uk/Teaching/Unix/
-IntelliJ Documentation http://www.jetbrains.com/idea/documentation/
+[Linux Tutorial] (http://www.tldp.org/LDP/gs/node5.html)
+[Unix for Beginners] (http://www.ee.surrey.ac.uk/Teaching/Unix/)
+[IntelliJ Documentation] (http://www.jetbrains.com/idea/documentation/)
