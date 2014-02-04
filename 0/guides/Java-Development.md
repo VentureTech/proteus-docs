@@ -1,5 +1,6 @@
 ---
 title: Java Development
+layout: default
 ---
 
 # Overview
@@ -100,8 +101,7 @@ List 3 links to articles about Java development and software engineering that yo
 
 
 2. Polymorphism
-For this exercise, create a text-only Reverse Polish notation (postfix notation) calculator, similar to [this example.]
-(http://www.meta-calculator.com/learning-lab/reverse-polish-notation-calculator.php)
+For this exercise, create a text-only Reverse Polish notation (postfix notation) calculator, similar to [this example] (http://www.meta-calculator.com/learning-lab/reverse-polish-notation-calculator.php).
 Additional information in [Wikipedia] (http://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
 Your calculator will wait for the user to enter a line of text and split it into tokens delimited by whitespace.  Tokens may be floating point numbers or operator strings.  Numbers are pushed onto a `Stack<Double>`, and operators work on elements at the top of the stack.  When the user enters a blank line, the program terminates.
