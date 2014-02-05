@@ -6,6 +6,7 @@ layout: guide
 # Overview
 This unit introduces advanced Java features and idioms, Linux basics, and some good software engineering practices.  Use the given references, plus any others you find, to learn about the topics mentioned here.  *Explore the first part of each section fully (up to "Other References"), and peruse the Other References sections as needed.*  There is *much* information available about Java and software engineering; focus especially (but not only) on the information you need to complete the exercises at the end.
 
+
 # Environment
 While you could theoretically develop Java applications on any platform, you will find it helpful to use the same environment as other VentureTech engineers.
 
@@ -122,45 +123,53 @@ Use type parameters (generics) for this exercise.  The method signatures are the
     1. Write a method last(...) that takes a list of arbitrary objects and returns the last element.  These calls should compile: 
 
         ```java
-String a = last(new ArrayList<String>());
-Integer b = last(new ArrayList<Integer>());
-Object c = last(new ArrayList<String>());
-But not these:
-String d = last(new ArrayList<Integer>());
-String e = last(new ArrayList<Object>());
+        String a = last(new ArrayList<String>());
+        Integer b = last(new ArrayList<Integer>());
+        Object c = last(new ArrayList<String>());
+        ```
+
+        But not these:
+        ```java
+        String d = last(new ArrayList<Integer>());
+        String e = last(new ArrayList<Object>());
         ```
         
     2. Write a method append(...) that takes an object x and a list y, and returns a new list that appends x to the end of y.  These should compile: 
     
         ```java
-append(new String(), new ArrayList<String>());
-append(new String(), new ArrayList<Object>());
-But not these:
-append(Integer.valueOf(0), new ArrayList<String>());
-append(new Object(), new ArrayList<String>()); // can’t have objects polluting our List<String>
+        append(new String(), new ArrayList<String>());
+        append(new String(), new ArrayList<Object>());
+        ```
+
+        But not these:
+        ```java
+        append(Integer.valueOf(0), new ArrayList<String>());
+        append(new Object(), new ArrayList<String>()); // can’t have objects polluting our List<String>
         ```
         
     3. Add type parameters to the method signatures of "sum" and "appendOne" so that the methods and invocations compile except for the commented calls.  Note that `Integer` and `Double` both extend `Number`. 
     
         ```java
-public static double sum(List list) {  // Add type parameter to List
-    double sum = 0;
-    for(Number n : list){
-	    sum += n.doubleValue();
-    }
-    return sum;
-}
-public static void appendOne(List list) {  // Add type parameter to List
-    list.add(1);
-}
-public static void main(String[] args) {
-    sum(new ArrayList<Integer>());
-    sum(new ArrayList<Double>());
-    //sum(new ArrayList<Object>());  // should fail to compile
-    appendOne(new ArrayList<Integer>());
-    appendOne(new ArrayList<Object>());
-    //appendOne(new ArrayList<Double>()); // should fail to compile
-}
+        public static double sum(List list) {  // Add type parameter to List
+            double sum = 0;
+            for(Number n : list){
+                sum += n.doubleValue();
+            }
+            return sum;
+        }
+
+        public static void appendOne(List list) {  // Add type parameter to List
+            list.add(1);
+        }
+        
+        public static void main(String[] args) {
+            sum(new ArrayList<Integer>());
+            sum(new ArrayList<Double>());
+            //sum(new ArrayList<Object>());  // should fail to compile
+            appendOne(new ArrayList<Integer>());
+            appendOne(new ArrayList<Object>());
+            //appendOne(new ArrayList<Double>()); // should fail to compile
+        }       
         ```
 
 4. Reflection & Annotations
@@ -168,42 +177,43 @@ Write a method annotation `@Test`.  (The Oracle Annotations trail describes how 
 For an object of the following class, your method should print `foo`.
 
     ```java
-class MyClass {
-    @Test void foo() { System.out.println("foo"); }
-    void bar() { System.out.println("bar"); }
-}
+    class MyClass {
+        @Test void foo() { System.out.println("foo"); }
+        void bar() { System.out.println("bar"); }
+    }
     ```
 
 5. API Contracts
     1. Add Javadoc to your calculator program.
     2. What is wrong with the Javadoc in the following methods?  Rewrite the Javadoc, correcting any errors.
 
-    ```java
-/**
- * Divides two numbers.
- * @param a dividend
- * @param b divisor
- * @return quotient
- */
-int divide(int a, int b) 
-{
-    return a / b;
-}
-/**
- * Computes the Fibonacci series.  For n >= 2, calls itself twice (on n-1 and n-2).
- * @param n a number
- * @return the nth Fibonnaci number
- */
-int fibonacci(int n)
-{
-    if(n < 0) 
-        System.err.println("Invalid n: " + n);
-    if(n < 2) 
-        return n 
-    else 
-        return fibonacci(n-1) + fibonacci(n-2);    
-}
-    ```
+        ```java
+        /**
+         * Divides two numbers.
+         * @param a dividend
+         * @param b divisor
+         * @return quotient
+         */
+        int divide(int a, int b) 
+        {
+            return a / b;
+        }
+
+        /**
+         * Computes the Fibonacci series.  For n >= 2, calls itself twice (on n-1 and n-2).
+         * @param n a number
+         * @return the nth Fibonnaci number
+         */
+        int fibonacci(int n)
+        {
+            if(n < 0) 
+                System.err.println("Invalid n: " + n);
+            if(n < 2) 
+                return n 
+            else 
+                return fibonacci(n-1) + fibonacci(n-2);    
+        }
+        ```
 
 6. Exception Handling
 Add exception handling to your program for the following cases:
@@ -211,42 +221,43 @@ Add exception handling to your program for the following cases:
     2. An operation fails due to invalid arguments
     3. What is wrong with the code in the following methods?  Assume the Javadoc is correct.  Rewrite the code to match the Javadoc and correct any problems.
 
-    ```java
-/**
- * Reads a file into a buffer.
- * @param file the file
- * @param buf character array that must be large enough to hold the file contents
- */ 
-void read(File file, char[] buf) 
-{
-    try
-    {
-        FileReader input = new FileReader(file);
-        input.read(buf);
-    }
-    catch(Exception ex)
-    {
-    }
-}
-// Note especially the stated precondition.
-/**
- * Converts a String to an int and adds one.  Assumes the argument is parseable.
- * @param s a String that must be parseable as an int
- * @return (the int value of s) plus one
- */
-int getValueAndIncrement(String s)
-{
-    try
-    {
-        return Integer.valueOf(s) + 1;
-    }
-    catch(NumberFormatException ex)
-    {
-        _logger.info("Error parsing number: " + s);
-        return -1;
-    }
-} 
-    ```
+        ```java
+        /**
+         * Reads a file into a buffer.
+         * @param file the file
+         * @param buf character array that must be large enough to hold the file contents
+         */ 
+        void read(File file, char[] buf) 
+        {
+            try
+            {
+                FileReader input = new FileReader(file);
+                input.read(buf);
+            }
+            catch(Exception ex)
+            {
+            }
+        }
+
+        // Note especially the stated precondition.
+        /**
+         * Converts a String to an int and adds one.  Assumes the argument is parseable.
+         * @param s a String that must be parseable as an int
+         * @return (the int value of s) plus one
+         */
+        int getValueAndIncrement(String s)
+        {
+            try
+            {
+                return Integer.valueOf(s) + 1;
+            }
+            catch(NumberFormatException ex)
+            {
+                _logger.info("Error parsing number: " + s);
+                return -1;
+            }
+        } 
+        ```
 
 7. Abstraction Tradeoffs
 This exercise requires you to think about the approach to a problem without writing any code.  Suppose you recently did some work for a client that involved reading CSV files and processing them, outputting the rows in a certain order. For this project, you wrote all the code yourself. A new project also requires you to read CSV files and process them, outputting the rows in a certain order, but the ordering is different and the set of columns is different.  The file format for the new project is different also; some of the data are escaped.  The new project is small and needs to be done as quickly as possible.
