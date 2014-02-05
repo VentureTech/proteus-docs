@@ -1,6 +1,6 @@
 ---
 title: Java Development
-layout: default
+layout: guide
 ---
 
 # Overview

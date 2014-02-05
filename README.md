@@ -1,9 +1,16 @@
-Content in the gh-pages branch is public through GitHub Pages.
- * The master branch is empty and should be ignored
- * The gh-pages branch contains source (e.g. DocBook XML) in the "_docbook" directories (where the underscore causes GitHub Pages / Jekyll to ignore them), plus published documents, e.g. HTML
+# Proteus Documents
 
-Directory structure:
- * The highest level directory is a number indicating the major release of Proteus.  The version directory contains:
-   * _docbook: source files for DocBook (not published)
-   * guides: DocBook developer guides published as HTML
-   * api: Javadoc reference
+Content in the gh-pages branch is public through GitHub Pages.  Pages are processed using Jekyll, with Redcarpet as the markdown engine.
+Each markdown `.md` file must contain the "front matter":
+```
+---
+title: Some title
+layout: A file from the _layouts directory, e.g. default or guide
+---
+
+## Directory structure
+ * The highest level directory is a number indicating the major release of Proteus.  Each version directory contains:
+   * `changes.md` Change log for the release (developer-oriented)
+   * `features.md` Notable features added or major interface changes for the release
+   * `guides/` Developer guides in markdown
+   * `api/` Javadoc reference
