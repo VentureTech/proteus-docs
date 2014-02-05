@@ -7,6 +7,7 @@ Each markdown `.md` file must contain the "front matter":
 title: Some title
 layout: A file from the _layouts directory, e.g. default or guide
 ---
+```
 
 ## Directory structure
  * The highest level directory is a number indicating the major release of Proteus.  Each version directory contains:
