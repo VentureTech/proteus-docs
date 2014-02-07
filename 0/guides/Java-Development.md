@@ -129,6 +129,7 @@ Use type parameters (generics) for this exercise.  The method signatures are the
         ```
 
         But not these:
+        
         ```java
         String d = last(new ArrayList<Integer>());
         String e = last(new ArrayList<Object>());
@@ -142,6 +143,7 @@ Use type parameters (generics) for this exercise.  The method signatures are the
         ```
 
         But not these:
+        
         ```java
         append(Integer.valueOf(0), new ArrayList<String>());
         append(new Object(), new ArrayList<String>()); // can’t have objects polluting our List<String>
