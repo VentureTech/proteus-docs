@@ -15,3 +15,10 @@ layout: A file from the _layouts directory, e.g. default or guide
    * `features.md` Notable features added or major interface changes for the release
    * `guides/` Developer guides in markdown
    * `api/` Javadoc reference
+ * Other contents in the root directory:
+   * `index.md` Home page
+   * `CNAME` Tells GitHub Pages to use a special (sub)domain name
+   * `Gemfile` Helps with running Jekyll locally
+   * `_config.yml` Global Jekyll config file
+   * `_layouts` Jekyll templates for the documentation
+   * `style` Stylesheets for layouts
