@@ -1,9 +1,9 @@
 code {
-    background-color: #efefef;
-    border-color: #d6d6d6;
-    margin: 2px;
-    padding: 2px;
-    border: 1px solid;
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
 }
 
 
