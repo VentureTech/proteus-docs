@@ -1,6 +1,6 @@
 # Proteus Documents
 
-Content in the gh-pages branch is *[public]* (docs.proteusframework.com) through GitHub Pages.  Pages are processed using Jekyll, with Redcarpet as the markdown engine.
+Content in the gh-pages branch is [public] (docs.proteusframework.com) through GitHub Pages.  Pages are processed using Jekyll, with Redcarpet as the markdown engine.
 Each markdown `.md` file must contain the "front matter":
 ```
 ---
