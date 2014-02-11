@@ -10,7 +10,8 @@ layout: A file from the _layouts directory, e.g. default or guide
 ```
 
 ## Directory structure
- * The highest level directory is a number indicating the major release of Proteus.  Each version directory contains:
+ * `proteus/` Contains a subdirectory named with a number, indicating the major release of Proteus, e.g.,
+`proteus/0/`. Each version directory contains:
    * `changes.md` Change log for the release (developer-oriented)
    * `features.md` Notable features added or major interface changes for the release
    * `guides/` Developer guides in markdown

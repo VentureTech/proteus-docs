@@ -9,7 +9,7 @@ layout: default
 
 ## Latest release: 0
 
-* [Features] (0/features)
-* [Change log] (0/changes)
-* [Guides] (0/guides/index)
-* [API Reference] (0/api)
+* [Features] (proteus/0/features)
+* [Change log] (proteus/0/changes)
+* [Guides] (proteus/0/guides/index)
+* [API Reference] (proteus/0/api)
