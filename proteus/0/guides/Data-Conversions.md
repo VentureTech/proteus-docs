@@ -4,13 +4,15 @@ layout: guide
 ---
 
 # Overview
-TODO - why do we have them, what kinds of things can be in conversion (e.g., SQL, schema changes, functions, indices)
+"Automation Tasks" are tasks that can be registered with the Proteus Framework for automated execution under certain conditions.  One example is `StaticKeyUpdateTask`, which updates database localizations for static keys defined in `.l10n.xml` files.
 
-- mention Spring Shell
+Another example is a "data conversion".  Sometimes we need to make changes to the database in parallel with Proteus Framework code releases.  For example, if a new Hibernate entity is introduced, we need to add a corresponding table when upgrading to a version of code that uses the entity.  when upgrading and skipping one or more versions, there may be a list of necessary database changes.  These changes are most easily managed if each one is encapsulated and registered as a data conversion task.  A data conversion could include SQL, schema changes, database functions, or indices---anything you might want to run in the databse.
+
+Data conversions can be run using Spring Shell.  First we describe how to write a data conversion, then we cover how to run them in Spring Shell.  But note that (by default) data conversions are executed when you start your server in your dev environment, so normally you only need to use Spring Shell for debugging or testing data conversions.
 
 ## Automation Tasks
 TODO
-Tasks are registered for use as Spring beans. If a Task / DataConversion is registered via a Java config, a @Profile referencing the version number of the software should be used.
+Tasks are registered for use as Spring beans. If a Task / DataConversion is registered via a Java config, a [@Profile] (http://docs.spring.io/spring/docs/3.1.4.RELEASE/javadoc-api/org/springframework/context/annotation/Profile.html) referencing the version number of the software should be used.
 
 Automation tasks are routine tasks that implement the net.proteusframework.core.automation.Task interface. In order for a task to be made available for users managing automation, you will need to make it a spring bring with the appropriate net.proteusframework.core.automation.TaskQualifier. See the com.i2rd.lib.automation.StaticKeyUpdateTask for an example.
 
