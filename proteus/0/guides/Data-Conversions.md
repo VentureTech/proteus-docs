@@ -15,6 +15,7 @@ Tasks implement `net.proteusframework.core.automation.Task` and are are register
 # Writing Data Conversions
 A data conversion is just some DDL and/or SQL that is registered with Proteus & Spring in a specific way.
 The preferred way to register a data conversion is this:
+
 1. Pick or create a Java (or Groovy) class to hold your data conversion(s).  Examples: `ProteusDataConversionsVersion0`, `UtilityFunctionsDataConversionsVersion0`, `TextFunctionsDataConversionsVersion0`; you may have an application-specific one.
 2. Register the class with Spring using these class-level annotations:
     * `@Configuration`: Allows you to register methods as Spring beans using `@Bean`
