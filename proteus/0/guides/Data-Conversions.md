@@ -54,6 +54,7 @@ $$select $1 $$ LANGUAGE SQL STABLE;''', 'Create procedure')
 
 # Running Data Conversions
 Data conversions are run automatically when you start your dev server.  But you may want to manage them manually for debugging or testing.  To do this, run the "Spring Shell" run configuration in IntelliJ.  Type `help` in the shell to see available commands.  For data conversions, the most useful commands are:
+
 * `dc list`: See pending (not run yet) conversions
 * `dc run --user username`: Pass in your username to run all pending conversions
 
