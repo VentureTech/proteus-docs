@@ -32,9 +32,9 @@ a profile for the version of the software that the data conversions belong. This
 5.  Each method should have these annotations: 
     * `@TaskQualifier(TaskQualifier.Type.data_conversion)`: Marks the method as a data conversion
     * `@Bean`: Registers the method as returning a Spring bean
-6.  Use the static methods on `SQLDataConversion` and `DatabaseObjectConversion` to help with implementation.
+6.  Use the static methods on `SQLDataConversion` and `DatabaseObjectConversion` to help with implementing the `DataConversion` interface.
 
-The following example is a Groovy data conversion that creates a database function.  Creating a function uses DDL, so we use the `withPostDDL` method.  We would use `withPreDDL` for destructive DDL (like dropping functions or tables).  See the next example for an SQL-only conversion.
+The following example is a Groovy data conversion that creates a database function.  Creating a function uses DDL, so we use the `withPostDDL` method.  We would use `withPreDDL` for destructive DDL (like dropping functions or tables).
 
 ```Groovy
     /**
@@ -53,8 +53,9 @@ $$select $1 $$ LANGUAGE SQL STABLE;''', 'Create procedure')
 
 
 # Running Data Conversions
-TODO - auto run, Spring Shell
-
+Data conversions are run automatically when you start your dev server.  But you may want to manage them manually for debugging or testing.  To do this, run the "Spring Shell" run configuration in IntelliJ.  Type `help` in the shell to see available commands.  For data conversions, the most useful commands are:
+* `dc list`: See pending (not run yet) conversions
+* `dc run --user username`: Pass in your username to run all pending conversions
 
 # Exercises
-1. Write a data conversion that creates a table in the database and inserts some values.
+1. Write a data conversion that creates a table in the database and inserts some values.  Run it in Spring Shell.
