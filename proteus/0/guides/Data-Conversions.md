@@ -4,38 +4,33 @@ layout: guide
 ---
 
 # Overview
-"Automation Tasks" are tasks that can be registered with the Proteus Framework for automated execution under certain conditions.  One example is `StaticKeyUpdateTask`, which updates database localizations for static keys defined in `.l10n.xml` files.
+"Automation Tasks" are tasks that can be registered with the Proteus Framework for automated execution under certain conditions.  One example is `com.i2rd.lib.automation.StaticKeyUpdateTask`, which updates database localizations for static keys defined in `.l10n.xml` files.
 
 Another example is a "data conversion".  Sometimes we need to make changes to the database in parallel with Proteus Framework code releases.  For example, if a new Hibernate entity is introduced, we need to add a corresponding table when upgrading to a version of code that uses the entity.  when upgrading and skipping one or more versions, there may be a list of necessary database changes.  These changes are most easily managed if each one is encapsulated and registered as a data conversion task.  A data conversion could include SQL, schema changes, database functions, or indices---anything you might want to run in the databse.
 
 Data conversions can be run using Spring Shell.  First we describe how to write a data conversion, then we cover how to run them in Spring Shell.  But note that (by default) data conversions are executed when you start your server in your dev environment, so normally you only need to use Spring Shell for debugging or testing data conversions.
 
-## Automation Tasks
-TODO
-Tasks are registered for use as Spring beans. If a Task / DataConversion is registered via a Java config, a [@Profile] (http://docs.spring.io/spring/docs/3.1.4.RELEASE/javadoc-api/org/springframework/context/annotation/Profile.html) referencing the version number of the software should be used.
-
-Automation tasks are routine tasks that implement the net.proteusframework.core.automation.Task interface. In order for a task to be made available for users managing automation, you will need to make it a spring bring with the appropriate net.proteusframework.core.automation.TaskQualifier. See the com.i2rd.lib.automation.StaticKeyUpdateTask for an example.
-
-## Data Conversions
-TODO
-
+Tasks implement `net.proteusframework.core.automation.Task` and are are registered for use as Spring beans.  Tasks should be annotated with `@TaskQualifier`.
 
 # Writing Data Conversions
-TODO - process, example
-
-DataConversions should be registered with a @Profile for the version of the software that the data conversions belong. This version number should only include the major version number of the software. Java configurations should be placed in an automation package under the base package for the API group in the case of Proteus or the Application.
-
-Examples
-
-* com.example.config.automation
-* net.proteusframework.cms.config.automation
-
-Example Profile Annotation
-
-* The versioned profile name should correspond to the artifact name of the project. This is what you set in the gradle.properties file for your project.
-* @Profile({“net.proteusframework.1”, “automation”})
-You should always include a version specific profile and a generic profile. This way we can easily load all data conversions or just the last few versions.
-
+A data conversion is just some DDL and/or SQL that is registered with Proteus & Spring in a specific way.
+The preferred way to register a data conversion is this:
+1. Pick or create a Java (or Groovy) class to hold your data conversion(s).  Examples: `ProteusDataConversionsVersion0`, `UtilityFunctionsDataConversionsVersion0`, `TextFunctionsDataConversionsVersion0`; you may have an application-specific one.
+2. Register the class with Spring using these class-level annotations:
+    * `@Configuration`: Allows you to register methods as Spring beans using `@Bean`
+    * `@Profile({"automation", "net.proteusframework.0"})`: The [@Profile] (http://docs.spring.io/spring/docs/3.1.4.RELEASE/javadoc-api/org/springframework/context/annotation/Profile.html) annotation registers the class with one or more Spring Profiles.  Always register the "automation" profile *and* 
+a profile for the version of the software that the data conversions belong. This version number should only include the *major* version number of the software. (The versioned profile name should correspond to the artifact name of the project. This is what you set in the gradle.properties file for your project.) Java configurations should be placed in an "automation" package under the base package.  For example:
+    * `com.example.config.automation`
+    * `net.proteusframework.cms.config.automation`
+    We include both a specific (`net.proteusframework.0`) and a generic (`automation`) profile so that we can easily load *either* all data conversions or just the last few versions.
+3. The class should have a unique, private String `IDENTIFIER`.
+4. Each data conversion is a no-argument method returning a DataConversion.  Method names should end in consecutive numbers starting from 1, with the highest-numbered method (most recent) at the top.  For example, you might have these methods:
+    * `DataConversion myConversion2()`
+    * `DataConversion theFirstOne1()`
 
 # Running Data Conversions
 TODO - auto run, Spring Shell
+
+
+# Exercises
+1. Write a data conversion that creates a table in the database and inserts some values.
