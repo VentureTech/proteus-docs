@@ -36,7 +36,7 @@ a profile for the version of the software that the data conversions belong. This
 
 The following example is a Groovy data conversion that creates a database function.  Creating a function uses DDL, so we use the `withPostDDL` method.  We would use `withPreDDL` for destructive DDL (like dropping functions or tables).
 
-```Groovy
+```groovy
     /**
      * Create procedure.
      * @return Bean.
