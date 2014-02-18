@@ -11,9 +11,11 @@ layout: A file from the _layouts directory, e.g. default or guide
 ---
 ```
 
+**Files that do not contain the above "front matter" are passed through to the site unchanged.** For example, if you include an HTML file without the section above, it will appear on the site without going through the template engine.
+
 ## Directory structure
- * `proteus/` Contains a subdirectory named with a number, indicating the major release of Proteus, e.g.,
-`proteus/0/`. Each version directory contains:
+ * `version/` Contains a subdirectory named with a number, indicating the major release of Proteus, e.g.,
+`version/0/`. Each version directory contains:
    * `changes.md` Change log for the release (developer-oriented)
    * `features.md` Notable features added or major interface changes for the release
    * `guides/` Developer guides in markdown
@@ -23,5 +25,5 @@ layout: A file from the _layouts directory, e.g. default or guide
    * `CNAME` Tells GitHub Pages to use a special (sub)domain name
    * `Gemfile` Helps with running Jekyll locally
    * `_config.yml` Global Jekyll config file
-   * `_layouts` Jekyll templates for the documentation
-   * `style` Stylesheets for layouts
+   * `_layouts/` Jekyll templates for the documentation
+   * `style/` Stylesheets for layouts
