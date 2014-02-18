@@ -16,8 +16,7 @@ layout: A file from the _layouts directory, e.g. default or guide
 ## Directory structure
  * `version/` Contains a subdirectory named with a number, indicating the major release of Proteus, e.g.,
 `version/0/`. Each version directory contains:
-   * `changes.md` Change log for the release (developer-oriented)
-   * `features.md` Notable features added or major interface changes for the release
+   * `changes.md` Change log for the release
    * `guides/` Developer guides in markdown
    * `api/` Javadoc reference
  * Other contents in the root directory:
