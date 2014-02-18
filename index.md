@@ -9,7 +9,6 @@ layout: default
 
 ## Latest release: 0
 
-* [Features] (version/0/features)
 * [Change log] (version/0/changes)
 * [Guides] (version/0/guides/index)
 * [API Reference] (version/0/api)
