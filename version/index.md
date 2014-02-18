@@ -1,6 +1,6 @@
 ---
 title: Versions
-style: default
+layout: default
 ---
 
 # Versions

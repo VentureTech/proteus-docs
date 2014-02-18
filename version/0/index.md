@@ -1,6 +1,6 @@
 ---
 title: Index
-style: default
+layout: default
 ---
 
 # Index
