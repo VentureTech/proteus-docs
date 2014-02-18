@@ -12,3 +12,6 @@ layout: default
 * [Change log] (version/0/changes)
 * [Guides] (version/0/guides/index)
 * [API Reference] (version/0/api)
+
+## All versions
+* [All versions] (version)
