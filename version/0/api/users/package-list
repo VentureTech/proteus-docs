@@ -1,0 +1,7 @@
+com.proteusframework.users
+net.proteusframework.users.audit
+net.proteusframework.users.authentication
+net.proteusframework.users.capability
+net.proteusframework.users.model
+net.proteusframework.users.model.dao
+net.proteusframework.users.prefs
