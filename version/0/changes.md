@@ -6,14 +6,14 @@ layout: default
 # Changes in v0.4.0
 
 
-* 2014-02-19  Ken Logan  <klogan@venturetech.net>
+* 2014-02-19  Ken Logan
 
 	Fix bugs from integration testing for #184. Add data conversion.
 
 	[PF #184] Remove direct references to all admin perm
 	closes #184
 
-* 2014-02-19  Russ Tennant  <russ@venturetech.net>
+* 2014-02-19  Russ Tennant
 
 	Remove unnecessary null argument from ReflectUtil.invokeMethod.
 
@@ -68,18 +68,18 @@ layout: default
 	Update CmsFrontendDAO getSiteHostnames(CmsSite) to be getSiteHostnames(Site).
 
 	
-* 2014-02-19  Jonathan Crosmer  <jcrosmer@venturetech.net>
+* 2014-02-19  Jonathan Crosmer
 
 	Make the data conversion call CREATE EXTENSION automatically and have a better comment that the contrib package is required.  Fixes #322
 
 	Change existing functions in '05-cms-functions.sql' and '20-text-functions.sql' to the new data conversion format. Also modified DynamicTableDAO so that it will initialize properly by disambiguating the LocaleSource.
 
-* 2014-02-19  Justin Piper  <jpiper@i2rd.com>
+* 2014-02-19  Justin Piper
 
 	Add method to display the name and ID of all hostnames for a site
 	closes #294
 
-* 2014-02-19  Jonathan Crosmer  <jcrosmer@i2rd.com>
+* 2014-02-19  Jonathan Crosmer
 
 	[PF #297] Rename IDataProvider to remove "I"
 	closes #297
