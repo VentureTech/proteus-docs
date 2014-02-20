@@ -3,15 +3,18 @@ title: API Documentation
 layout: default
 ---
 
-# API Groups
+# Proteus Framework API Groups
 
-* [cms](cms)
-* [communication](communication)
-* [core](core)
-* [data](data)
-* [internet](internet)
-* [processes](processes)
-* [proteusframework](proteusframework)
-* [ui](ui)
-* [users](users)
+## Libraries
+* [Core](core)
+* [User](users)
+* [Internet](internet)
+* [Data](data)
+* [User Interface](ui)
+
+## Features
+* [Content Management](cms)
+* [Business Intelligence](communication)
+* [Forms and Business Processes](processes)
+* [Administration](proteusframework)
 

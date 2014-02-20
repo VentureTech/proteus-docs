@@ -10,3 +10,23 @@ position:fixed;
 bottom:0;
 background-color:#fff;
 }
+nav{
+margin-top:.5em;
+}
+.breadcrumb { 
+list-style: none; 
+overflow: hidden; 
+font: 14px Helvetica, Arial, Sans-Serif;
+padding:0;
+margin:0;
+}
+.breadcrumb li { 
+float: left; 
+padding-right:3px;
+}
+.breadcrumb li a{
+text-decoration:none;
+}
+.breadcrumb li a:hover{  
+text-decoration:underline;
+}

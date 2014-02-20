@@ -3,7 +3,10 @@ title: Changes
 layout: default
 ---
 
-# Changes in v0.4.0
+# Version 0 of the Proteus Framework
+
+
+## Changes in v0.4.0
 
 
 * 2014-02-19  Ken Logan
