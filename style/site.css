@@ -1,8 +1,12 @@
-main {display:block;}
+main{
+display:block;
+padding-bottom:16px;
+}
 footer{
+width:100%;
 font-family: Georgia, "Times New Roman", serif;
 font-size: 14px;
 position:fixed;
-padding:20px;
 bottom:0;
+background-color:#fff;
 }
