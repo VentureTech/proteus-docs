@@ -10,6 +10,7 @@ position:fixed;
 bottom:0;
 background-color:#fff;
 }
+
 nav{
 margin-top:.5em;
 }
@@ -29,4 +30,8 @@ text-decoration:none;
 }
 .breadcrumb li a:hover{  
 text-decoration:underline;
+}
+
+div.google_custom_search{
+min-height:64px;
 }
