@@ -3,31 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>{{page.title}}</title>
+    <link rel="stylesheet" type="text/css" href="/style/site.css">
     <link rel="stylesheet" type="text/css" href="/style/syntax.css">
   </head>
 
   <body>
-
-<div class="google_custom_search">   <!-- Google Search -->
-<script>
-  (function() {
-    var cx = '011996150240257852740:zzqv-9r5xua';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-</div>
-
-<div class="file_issue">Problem with the documentation? Please help by <a href="https://github.com/VentureTech/proteus-docs/issues/new">filing an issue</a> in GitHub.</div>
-
-<hr>
-
+    <header>
+{% include header.html %}
+    </header>
+    <main>
       {{ content }}
+    </main>
+   <footer id="footer">
+{% include footer.html %}
+   </footer>
   </body>
 </html>

@@ -1,0 +1,8 @@
+main {display:block;}
+footer{
+font-family: Georgia, "Times New Roman", serif;
+font-size: 14px;
+position:fixed;
+padding:20px;
+bottom:0;
+}
