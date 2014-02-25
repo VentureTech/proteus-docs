@@ -7,7 +7,7 @@ layout: default
 
 ## Changes in v0.4.3
 
-2014-02-25  Russ Tennant  <russ@venturetech.net>
+2014-02-25  Russ Tennant 
 
         [PF #343] Add StaticKeyDataConfig command to Proteus Shell
 
@@ -18,7 +18,7 @@ layout: default
         Added a data conversion to add an email template for the
         backend reset password component.
 
-2014-02-24  Russ Tennant  <russ@venturetech.net>
+2014-02-24  Russ Tennant 
 
         [PF #173] CommunicationConfig - not sure if in good package
         Moved cache configs to net.proteusframework.$module.config package.
