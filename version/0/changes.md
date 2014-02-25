@@ -5,6 +5,47 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.4.3
+
+2014-02-25  Russ Tennant  <russ@venturetech.net>
+
+        [PF #343] Add StaticKeyDataConfig command to Proteus Shell
+
+        StaticKeyDataConfig: 
+         Add missing properties to copy constructor. Add scanPackage mutators.
+
+        [PF #327] Error on attempt to reset password
+        Added a data conversion to add an email template for the
+        backend reset password component.
+
+2014-02-24  Russ Tennant  <russ@venturetech.net>
+
+        [PF #173] CommunicationConfig - not sure if in good package
+        Moved cache configs to net.proteusframework.$module.config package.
+
+        [PF #330] Changing revision limit caused files to be lost
+        Add back check for same stream storage when processing files. Appears to have been accidentally removed when the email notifications were removed.
+
+        [PF #314] Incorrect usage of window.setTimeout  method
+
+        [PF #299] RadioButtonComponent has seemingly incorrect id attribute
+        When converting some code to use dashes into underscores for consistency,
+        the radio button ID was missed in one place causing a mismatch between
+        the label.for and the input.id.
+
+        [PF #331 #240] Template Management / CSS bug when editing name
+        Invalidate parent in setVisible, setEnabled, and setEditable.
+
+        [PF #326] Styles in menu component are missing
+        miwt_highlight class was missing some replacements with miwt-tree class.
+
+        [PF #318] Page Management / Live Preview Button Opens In Window
+        When rendering an external action link, do not include the submit
+        feature. The submit feature causes JavaScript code to handle opening
+        a new window and we do not want to do that in this case.
+
+        [PF #199] SAF - add the ability to pick files independently
+
 
 ## Changes in v0.4.0
 
