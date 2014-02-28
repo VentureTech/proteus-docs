@@ -5,6 +5,21 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.4.5
+
+2014-02-28 Russ Tennant
+
+	[PF #359] Blocking - Detaching CSS from page management doesn't work
+	Remove delete-orphan cascade from many-to-many property.
+	
+	[PF #360] Blocking - Can't log in via token
+	Added methods for obtaining a Hostname or Site without
+	having the RenderContext initialized. This allows the authentication
+	domain to be retrieved before the CMS RenderContext has been
+	initialized.
+
+	Moved FilterChainProxy registration.
+
 ## Changes in v0.4.4
 
 2014-02-27  Russ Tennant 
