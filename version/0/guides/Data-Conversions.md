@@ -23,6 +23,7 @@ The preferred way to register a data conversion is this:
 a profile for the version of the software that the data conversions belong. This version number should only include the *major* version number of the software. (The versioned profile name should correspond to the artifact name of the project. This is what you set in the gradle.properties file for your project.) Java configurations should be placed in an "automation" package under the base package.  For example:
         * `com.example.config.automation`
         * `net.proteusframework.cms.config.automation`
+
     We include both a specific (`net.proteusframework.0`) and a generic (`automation`) profile so that we can easily load *either* all data conversions or just the last few versions.
 3. The class should have a unique, private String `IDENTIFIER`.
 4. Each data conversion is a no-argument method returning a DataConversion.  Method names should end in consecutive numbers starting from 1, with the highest-numbered method (most recent) at the top.  For example, you might have these methods:
