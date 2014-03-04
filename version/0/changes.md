@@ -5,6 +5,12 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.4.7
+
+2014-03-04  Russ Tennant 
+
+    Fix NPE introduced in previous release.
+
 ## Changes in v0.4.6
 
 2014-03-03  Russ Tennant 
