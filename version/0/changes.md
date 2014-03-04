@@ -5,20 +5,45 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.4.6
+
+2014-03-03  Russ Tennant 
+
+    [PF #356] Component Mgt / Search by Page type doesn't work
+
+    [PF #357] ComboBox action listener doesn't work on first event
+    Fixes a regression from a previous change. Do not invalidate parent when used as a renderer.
+
+    [PF #359] Blocking - Detaching CSS from page management doesn't work
+    Remove delete cascade from many-to-many property.
+
+    [PF #365] Removing components from page doesn't update UI correctly
+    Fixed several queries that had old/incorrect syntax.
+
+    [PF #367] Reset Password Component / Underscore in component class
+    Updated other class names with underscores as well.
+
+    [PF #368] Logout Component / Switching between options does not update UI
+    Added call to watch for changes to RadioButtons.
+
+    Port fixes from https://support.i2rd.com/view.php?id=59222 PageAccessCapabilityDAO.java, PageElementTreeModel.java, SiteElementRenderer.java, PagePathNode.java:
+> Remove "revocation = false" from queries since the return value depends on it. Update path matching to match all paths, not just folders.
+
+
 ## Changes in v0.4.5
 
 2014-02-28 Russ Tennant
 
-	[PF #359] Blocking - Detaching CSS from page management doesn't work
-	Remove delete-orphan cascade from many-to-many property.
+    [PF #359] Blocking - Detaching CSS from page management doesn't work
+    Remove delete-orphan cascade from many-to-many property.
 	
-	[PF #360] Blocking - Can't log in via token
-	Added methods for obtaining a Hostname or Site without
-	having the RenderContext initialized. This allows the authentication
-	domain to be retrieved before the CMS RenderContext has been
-	initialized.
+    [PF #360] Blocking - Can't log in via token
+    Added methods for obtaining a Hostname or Site without
+    having the RenderContext initialized. This allows the authentication
+    domain to be retrieved before the CMS RenderContext has been
+    initialized.
 
-	Moved FilterChainProxy registration.
+    Moved FilterChainProxy registration.
 
 ## Changes in v0.4.4
 
