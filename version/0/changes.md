@@ -5,6 +5,17 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.4.8
+
+2014-03-05  Jonathan Crosmer
+
+        Add missing annotation to FormEditor
+
+2014-03-04  Russ Tennant 
+
+        build.gradle: Update for hibernate enhancer. Commented out currently.
+        ProteusWebAppConfig: Create a constant for the property source name.
+
 ## Changes in v0.4.7
 
 2014-03-04  Russ Tennant 
