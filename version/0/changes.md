@@ -5,6 +5,20 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.4.9
+
+2014-03-11  Russ Tennant
+
+        Fix orm2dc Java Identifier:
+        Make sure beanName is also a valid Java identifier
+        in com.i2rd.hibernate.task.SchemaUpdateHelper.createDataConversion
+        Put the version number at the end of the beanName.
+
+        PF-388 Remove exclude for xml-apis on hibernate dependency.
+        We have to exclude xml-apis on all dependencies.
+
+        PF-387 Fix BIRT Batik PDF class loading error. Related to https://bugs.eclipse.org/bugs/show_bug.cgi?id=344560
+
 ## Changes in v0.4.8
 
 2014-03-05  Jonathan Crosmer
