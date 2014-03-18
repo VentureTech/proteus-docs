@@ -5,6 +5,18 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.4.10
+
+### Bug
+
+[PF-383](https://agile.venturetech.net/browse/PF-383) - MessageContainer causes javascript error in latest firefox
+[PF-405](https://agile.venturetech.net/browse/PF-405) - LabelExtension behaves incorrectly when accessing name
+[PF-406](https://agile.venturetech.net/browse/PF-406) - Form : Unable to add generator
+
+### Story
+
+[PF-396](https://agile.venturetech.net/browse/PF-396) - Change the default renderer for Pagers
+
 ## Changes in v0.4.9
 
 2014-03-11  Russ Tennant
