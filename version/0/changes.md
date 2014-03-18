@@ -15,6 +15,8 @@ layout: default
 
 [PF-406](https://agile.venturetech.net/browse/PF-406) - Form : Unable to add generator.
 
+[PF-402](https://agile.venturetech.net/browse/PF-402) - New pages do not show in page selector UI.
+
 ### Story
 
 [PF-396](https://agile.venturetech.net/browse/PF-396) - Change the default renderer for Pagers
