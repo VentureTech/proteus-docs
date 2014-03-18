@@ -9,9 +9,11 @@ layout: default
 
 ### Bug
 
-[PF-383](https://agile.venturetech.net/browse/PF-383) - MessageContainer causes javascript error in latest firefox
-[PF-405](https://agile.venturetech.net/browse/PF-405) - LabelExtension behaves incorrectly when accessing name
-[PF-406](https://agile.venturetech.net/browse/PF-406) - Form : Unable to add generator
+[PF-383](https://agile.venturetech.net/browse/PF-383) - MessageContainer causes javascript error in latest firefox.
+
+[PF-405](https://agile.venturetech.net/browse/PF-405) - LabelExtension behaves incorrectly when accessing name.
+
+[PF-406](https://agile.venturetech.net/browse/PF-406) - Form : Unable to add generator.
 
 ### Story
 
