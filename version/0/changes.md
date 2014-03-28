@@ -5,6 +5,13 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.4.11
+
+### Bug
+
+[PF-418](https://agile.venturetech.net/browse/PF-418) - Form: no Submit Action
+[PF-423](https://agile.venturetech.net/browse/PF-423) - SSL redirect is forced when configured not to
+
 ## Changes in v0.4.10
 
 ### Bug
