@@ -5,6 +5,12 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.5.0
+
+### Story
+
+[PF-62](https://agile.venturetech.net/browse/PF-62) - Upgrade to Spring version 4 And Support Java 8
+
 ## Changes in v0.4.11
 
 ### Bug
