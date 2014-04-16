@@ -1,8 +1,8 @@
-com.proteusframework.core
 net.proteusframework.core
 net.proteusframework.core.annotation
 net.proteusframework.core.automation
 net.proteusframework.core.cache
+net.proteusframework.core.config
 net.proteusframework.core.freemarker
 net.proteusframework.core.geo
 net.proteusframework.core.hibernate

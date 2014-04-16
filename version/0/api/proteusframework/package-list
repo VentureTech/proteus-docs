@@ -1,3 +1,5 @@
 net.proteusframework.config
 net.proteusframework.config.automation
+net.proteusframework.config.automation.version0
+net.proteusframework.shell
 net.proteusframework.test

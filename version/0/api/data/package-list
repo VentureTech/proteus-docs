@@ -1,4 +1,4 @@
-com.proteusframework.data
+net.proteusframework.data.config
 net.proteusframework.data.filesystem
 net.proteusframework.data.filesystem.http
 net.proteusframework.data.mail
