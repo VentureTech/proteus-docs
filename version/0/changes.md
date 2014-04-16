@@ -5,6 +5,80 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.6.0
+
+s release includes API changes that are likely to affect most users.
+For PF-540, we converted many APIs to use `TextSource` instead of `LocalizedText`
+or `LocalizedObjectKey`. `LocalizedText` and `LocalizedObjectKey` are `TextSource`s.
+
+The following methods have been deleted on UI component and related API:
+
+- setTooltipKey
+- setLabelKey
+- setTextKey
+- setConfirmTextKey
+- setHintTextKey
+
+You can use the following regular expressions to find and fix calls to those methods.
+
+> Search  => set(Tooltip|Label|Text|ConfirmText)Key\s?[(]
+> Replace => set$1(
+
+and
+
+> Search  => setHintTextKey\s?[(]
+> Replace => setHint(
+
+
+In addition to having a new API, `TextSource`, for referencing internationalized or 
+non-internationalized text there is a utility class, 
+[TextSources](http://docs.proteusframework.com/version/0/api/core/net/proteusframework/core/locale/TextSources.html), 
+for creating text sources that handles null checks so you don't have to.
+
+The default MIWT cell renderers now use `TextSources.createForAny(Object)`
+and `TextSources.createForTooltip(Object)`.
+
+### Technical task
+
+[PF-483](https://agile.venturetech.net/browse/PF-483) - Update TextSource API
+
+### Bug
+
+[PF-347](https://agile.venturetech.net/browse/PF-347) - Text Editor : Unable to save text
+[PF-358](https://agile.venturetech.net/browse/PF-358) - Error trying to move folder to disk file storage
+[PF-375](https://agile.venturetech.net/browse/PF-375) - Frontend User Management / Edit Login Info / !L10N! Error for password verify
+[PF-415](https://agile.venturetech.net/browse/PF-415) - Calendar ignores _includeTime etc. when disabled
+[PF-460](https://agile.venturetech.net/browse/PF-460) - Backend User Management / !L10N! error when editing login info
+[PF-482](https://agile.venturetech.net/browse/PF-482) - Form Entry CMS Component / 500 error when submitting a form
+[PF-487](https://agile.venturetech.net/browse/PF-487) - Form Management / ClassCastException when adding a Likert
+[PF-489](https://agile.venturetech.net/browse/PF-489) - Form Management / Selectable regions are not sorted correctly
+[PF-490](https://agile.venturetech.net/browse/PF-490) - Form Management / NPE when setting the default country for an address field
+[PF-499](https://agile.venturetech.net/browse/PF-499) - StringTextSource / We have things that depend on toString producing human-readable output
+[PF-502](https://agile.venturetech.net/browse/PF-502) - FormDAO.getFormDefinitionQLBuilder() returns a broken QLBuilder
+[PF-505](https://agile.venturetech.net/browse/PF-505) - Form Data Management / File fields are not working
+[PF-507](https://agile.venturetech.net/browse/PF-507) - Form Management / Can't delete revisions
+[PF-518](https://agile.venturetech.net/browse/PF-518) - Form Data Management / !L10N! placeholders in CSV headers
+[PF-521](https://agile.venturetech.net/browse/PF-521) - Page Management / Map Bean is not working
+[PF-522](https://agile.venturetech.net/browse/PF-522) - Page Management / !L10N! placeholders in editor for Audio and Video beans
+[PF-524](https://agile.venturetech.net/browse/PF-524) - Page Management / !L10N! placeholders in editor for Conditional Redirect bean
+[PF-530](https://agile.venturetech.net/browse/PF-530) - Proteus depends on an internet connection
+[PF-539](https://agile.venturetech.net/browse/PF-539) - ExpressionEditor / Save-Exit doesn't call listener so it doesn't save
+
+### Improvement
+
+[PF-408](https://agile.venturetech.net/browse/PF-408) - HTML and Class Changes to MIWT tables
+
+### Story
+
+[PF-102](https://agile.venturetech.net/browse/PF-102) - MIWT - Update TH column names to have a SPAN or DIV wrapper
+[PF-122](https://agile.venturetech.net/browse/PF-122) - Cache Invalidation support for administrators
+[PF-366](https://agile.venturetech.net/browse/PF-366) - Login Component HTML Issue with EULA hidden input
+[PF-399](https://agile.venturetech.net/browse/PF-399) - Updates to Pager HTML
+[PF-400](https://agile.venturetech.net/browse/PF-400) - Updates to UI Task Manager HTML
+[PF-401](https://agile.venturetech.net/browse/PF-401) - Update the site name CSS conversion to use dash instead of underscore
+[PF-438](https://agile.venturetech.net/browse/PF-438) - Unit test for CKEditor
+[PF-442](https://agile.venturetech.net/browse/PF-442) - Basic test for all Proteus Backend UI
+[PF-540](https://agile.venturetech.net/browse/PF-540) - Convert core UI API to use TextSource
 
 ## Changes in v0.5.1
 
