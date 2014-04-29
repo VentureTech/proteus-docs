@@ -5,6 +5,38 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.7.0
+
+### Bug
+
+- [PF-361](https://agile.venturetech.net/browse/PF-361) - EmailTemplateSelector - returns modification state of UNCHANGED when expecting CHANGED
+- [PF-430](https://agile.venturetech.net/browse/PF-430) - OnDelete Annotation causing Foreign Key problems with AbstractEmailConfiguration
+- [PF-450](https://agile.venturetech.net/browse/PF-450) - Bad Generator Expression Crashes Form Data Submission
+- [PF-451](https://agile.venturetech.net/browse/PF-451) - New Form Revision breaks the view to use in Form Data Mgt
+- [PF-452](https://agile.venturetech.net/browse/PF-452) - MailTrackerResourceFactory doesn't set the factory ID on the resources it creates
+- [PF-454](https://agile.venturetech.net/browse/PF-454) - Frontend User Management / Error getting domains that principal admins
+- [PF-461](https://agile.venturetech.net/browse/PF-461) - Backend User Management / Web content permissions are not persisted
+- [PF-463](https://agile.venturetech.net/browse/PF-463) - Label Management / Lazy init exception
+- [PF-470](https://agile.venturetech.net/browse/PF-470) - Library Management / Changing library type or category doesn't change search results
+- [PF-508](https://agile.venturetech.net/browse/PF-508) - Form Data Management / Can't add form data after switching forms
+- [PF-512](https://agile.venturetech.net/browse/PF-512) - Form Management / Can't add items to Form Process Context
+- [PF-513](https://agile.venturetech.net/browse/PF-513) - Form Management / Can't add action to form rules
+- [PF-523](https://agile.venturetech.net/browse/PF-523) - Page Management / Flash bean doesn't show file selector
+- [PF-525](https://agile.venturetech.net/browse/PF-525) - Page Management / URL field isn't shown when adding a menu item for an external URL
+- [PF-528](https://agile.venturetech.net/browse/PF-528) - Default role selected by the Create Account component is the All Admin role
+- [PF-541](https://agile.venturetech.net/browse/PF-541) - User Management / Editing password credentials silently fails
+- [PF-588](https://agile.venturetech.net/browse/PF-588) - Email Template Management / Can't save email with content
+
+### Story
+
+- [PF-94](https://agile.venturetech.net/browse/PF-94) - Update dynamic entity manager to work with Hibernate 4
+- [PF-119](https://agile.venturetech.net/browse/PF-119) - Port CustomDB
+- [PF-238](https://agile.venturetech.net/browse/PF-238) - PrincipalAuthenticationDomainForm triggers clobber error
+- [PF-421](https://agile.venturetech.net/browse/PF-421) - Reset Password Component Forms URL incorrectly
+- [PF-501](https://agile.venturetech.net/browse/PF-501) - MIWT Field Component Async Input Listener
+- [PF-562](https://agile.venturetech.net/browse/PF-562) - Update DomainModel API to use TextSource
+- [PF-572](https://agile.venturetech.net/browse/PF-572) - In Page Management, removing components from a composite container then clicking undo to add them fails with error
+
 ## Changes in v0.6.0
 
 
