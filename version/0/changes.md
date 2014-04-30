@@ -5,6 +5,12 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.7.1
+
+### Bug
+
+- [PF-599](https://agile.venturetech.net/browse/PF-599) - Cannot open email template to edit it
+
 ## Changes in v0.7.0
 
 ### Bug
@@ -36,6 +42,13 @@ layout: default
 - [PF-501](https://agile.venturetech.net/browse/PF-501) - MIWT Field Component Async Input Listener
 - [PF-562](https://agile.venturetech.net/browse/PF-562) - Update DomainModel API to use TextSource
 - [PF-572](https://agile.venturetech.net/browse/PF-572) - In Page Management, removing components from a composite container then clicking undo to add them fails with error
+
+## Changes in v0.6.1
+
+### Bug
+
+- [PF-588](https://agile.venturetech.net/browse/PF-588) - Email Template Management / Can't save email with content
+
 
 ## Changes in v0.6.0
 
