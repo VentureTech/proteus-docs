@@ -5,6 +5,31 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.8.0
+
+### Bug
+
+- [PF-614](https://agile.venturetech.net/browse/PF-614) - Port Vs to Proteus - Menu Component / Forward slash being double encoded in query parameters
+- [PF-620](https://agile.venturetech.net/browse/PF-620) - Form submitted with invalid email cannot be resubmitted
+- [PF-630](https://agile.venturetech.net/browse/PF-630) - File Permissions are not working
+
+### Improvement
+
+- [PF-598](https://agile.venturetech.net/browse/PF-598) - File Server Component - Add support for HEAD requests
+
+### Story
+
+- [PF-90](https://agile.venturetech.net/browse/PF-90) - Support new BIRT emitters
+- [PF-91](https://agile.venturetech.net/browse/PF-91) - Google Analytics - Support Universal Analytics
+- [PF-321](https://agile.venturetech.net/browse/PF-321) - Consider renaming com.i2rd.configuration.annotation.Configurable
+- [PF-573](https://agile.venturetech.net/browse/PF-573) - Change default for update statickeys command
+- [PF-591](https://agile.venturetech.net/browse/PF-591) - Replace MessageUtil with IntegrationHelper
+- [PF-606](https://agile.venturetech.net/browse/PF-606) - Image Cropping JS Library
+- [PF-608](https://agile.venturetech.net/browse/PF-608) - Image Resource Paths / Handle protected image resources in developer image completion helper
+- [PF-617](https://agile.venturetech.net/browse/PF-617) - Port VS to Proteus - File System / Indicate if a file or a folder is secured
+- [PF-621](https://agile.venturetech.net/browse/PF-621) - Update Search API to use TextSource
+
+
 ## Changes in v0.7.1
 
 ### Bug
