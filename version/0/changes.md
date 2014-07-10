@@ -7,16 +7,6 @@ layout: default
 
 ## Changes in v0.9.0
 
-### Technical task
-
-- [PF-672](https://agile.venturetech.net/browse/PF-672) - Duplicate rows in form email template table
-- [PF-673](https://agile.venturetech.net/browse/PF-673) - Lazy init exception in FormMediator._sendSubmitEmails
-- [PF-674](https://agile.venturetech.net/browse/PF-674) - NPE in EmailTemplateEditor.updateUIDomainModelVariableTree
-- [PF-675](https://agile.venturetech.net/browse/PF-675) - IllegalArgumentException in FormEmailTemplateEditor.init
-- [PF-676](https://agile.venturetech.net/browse/PF-676) - New form data sends two emails
-- [PF-677](https://agile.venturetech.net/browse/PF-677) - No feedback for errors in expressions
-- [PF-679](https://agile.venturetech.net/browse/PF-679) - ClassCastException in SampleDataGenerator.generate
-
 ### Bug
 
 - [PF-597](https://agile.venturetech.net/browse/PF-597) - LocalizedObjectKeyFieldComponent / rich editor HTML
