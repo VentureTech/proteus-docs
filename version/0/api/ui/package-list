@@ -1,6 +1,6 @@
 net.proteusframework.data.filesystem
+net.proteusframework.ui.column
 net.proteusframework.ui.config
-net.proteusframework.ui.mcolumn
 net.proteusframework.ui.miwt
 net.proteusframework.ui.miwt.component
 net.proteusframework.ui.miwt.component.composite

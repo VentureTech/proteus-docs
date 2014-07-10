@@ -5,6 +5,89 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.9.0
+
+### Technical task
+
+- [PF-672](https://agile.venturetech.net/browse/PF-672) - Duplicate rows in form email template table
+- [PF-673](https://agile.venturetech.net/browse/PF-673) - Lazy init exception in FormMediator._sendSubmitEmails
+- [PF-674](https://agile.venturetech.net/browse/PF-674) - NPE in EmailTemplateEditor.updateUIDomainModelVariableTree
+- [PF-675](https://agile.venturetech.net/browse/PF-675) - IllegalArgumentException in FormEmailTemplateEditor.init
+- [PF-676](https://agile.venturetech.net/browse/PF-676) - New form data sends two emails
+- [PF-677](https://agile.venturetech.net/browse/PF-677) - No feedback for errors in expressions
+- [PF-679](https://agile.venturetech.net/browse/PF-679) - ClassCastException in SampleDataGenerator.generate
+
+### Bug
+
+- [PF-597](https://agile.venturetech.net/browse/PF-597) - LocalizedObjectKeyFieldComponent / rich editor HTML
+- [PF-634](https://agile.venturetech.net/browse/PF-634) - Form Editor / Click To Edit UI not working in View Settings
+- [PF-636](https://agile.venturetech.net/browse/PF-636) - Login component won't let you set new password for expired credentials
+- [PF-647](https://agile.venturetech.net/browse/PF-647) - CmsURLModelExtension cannot locate URL to resolve values
+- [PF-649](https://agile.venturetech.net/browse/PF-649) - Custom DB / NPE when searchable date field has no display name set
+- [PF-651](https://agile.venturetech.net/browse/PF-651) - Reset password due to credentials expiration causes 3 failed login attempts
+- [PF-657](https://agile.venturetech.net/browse/PF-657) - Condition entity uses Action's ID sequence
+- [PF-678](https://agile.venturetech.net/browse/PF-678) - Forms / No feedback for errors in expressions
+- [PF-689](https://agile.venturetech.net/browse/PF-689) - miwt-lib.js / IE7 querySelectorAll is being used for all IEs
+
+### Improvement
+
+
+- [PF-576](https://agile.venturetech.net/browse/PF-576) - Delete CurrentUserModelSupplier
+- [PF-583](https://agile.venturetech.net/browse/PF-583) - EmailTemplateSelector / Poor usability
+- [PF-596](https://agile.venturetech.net/browse/PF-596) - Rename CmsRequest.getBeanData
+- [PF-616](https://agile.venturetech.net/browse/PF-616) - Make CMS components assigned by default
+
+### Story
+
+- [PF-141](https://agile.venturetech.net/browse/PF-141) - Move the proteus themes into a separate repo (CSS/JS/Images)
+- [PF-198](https://agile.venturetech.net/browse/PF-198) - Add a current working directory label to file upload UIs
+- [PF-241](https://agile.venturetech.net/browse/PF-241) - Update PageElementModelSupplier for Hibernate update
+- [PF-302](https://agile.venturetech.net/browse/PF-302) - Firefox Support for LiveEdit / Test and Fix Chrome Support
+- [PF-370](https://agile.venturetech.net/browse/PF-370) - Automation / Data Conversion For Theme Updates
+- [PF-397](https://agile.venturetech.net/browse/PF-397) - MIWT needs a way to make action links that do not have the "btn" class
+- [PF-424](https://agile.venturetech.net/browse/PF-424) - Sending emails when form submitted
+- [PF-432](https://agile.venturetech.net/browse/PF-432) - Change Order of generator calls
+- [PF-567](https://agile.venturetech.net/browse/PF-567) - Article container component goes into "failsafe" when switching container style
+- [PF-600](https://agile.venturetech.net/browse/PF-600) - Improve MTable API naming
+- [PF-622](https://agile.venturetech.net/browse/PF-622) - SearchConstraints / API to provide constraint specific class names
+- [PF-628](https://agile.venturetech.net/browse/PF-628) - Update MIWT error display for uncaught exception
+- [PF-637](https://agile.venturetech.net/browse/PF-637) - Remove clearing div elements from output
+- [PF-638](https://agile.venturetech.net/browse/PF-638) - Create MIWT Component that integrates XMLRenderer
+- [PF-640](https://agile.venturetech.net/browse/PF-640) - Article Container Component Editor adds components directly to a HistoryContainer
+- [PF-658](https://agile.venturetech.net/browse/PF-658) - IE Support for LiveEdit
+- [PF-659](https://agile.venturetech.net/browse/PF-659) - Form visibility condition
+- [PF-671](https://agile.venturetech.net/browse/PF-671) - Finish work for "Sending emails when form submitted"
+
+## Changes in v0.8.5
+
+### Bug
+
+- [PF-689](https://agile.venturetech.net/browse/PF-689) - Fix IE7 specific polyfill to be IE7 specific.
+
+## Changes in v0.8.4
+
+### Bug
+
+- Fixed a possible NPE in the FormConditionEditor.
+
+## Changes in v0.8.3
+
+### Bug
+
+- [PF-645](https://agile.venturetech.net/browse/PF-645) - Fixed an issue with conditions not working in Forms.
+
+## Changes in v0.8.2
+
+### Bug
+
+- Fixed an issue with duplicate port numbers being output on URLs.
+
+## Changes in v0.8.1
+
+### Bug
+
+- [PF-647](https://agile.venturetech.net/browse/PF-647) - CmsURLModelExtension cannot locate URL to resolve values
+
 ## Changes in v0.8.0
 
 ### Bug

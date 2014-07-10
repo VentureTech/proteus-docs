@@ -14,3 +14,4 @@ net.proteusframework.internet.servlet.filter
 net.proteusframework.internet.servlet.filter.compression
 net.proteusframework.internet.spring
 net.proteusframework.internet.support
+net.proteusframework.internet.support.xml

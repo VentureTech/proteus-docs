@@ -1,4 +1,5 @@
 net.proteusframework.data.config
+net.proteusframework.data.config.automation.version0
 net.proteusframework.data.filesystem
 net.proteusframework.data.filesystem.http
 net.proteusframework.data.mail
