@@ -47,6 +47,7 @@ layout: default
 - [PF-658](https://agile.venturetech.net/browse/PF-658) - IE Support for LiveEdit
 - [PF-659](https://agile.venturetech.net/browse/PF-659) - Form visibility condition
 - [PF-671](https://agile.venturetech.net/browse/PF-671) - Finish work for "Sending emails when form submitted"
+- [PF-698](https://agile.venturetech.net/browse/PF-698) - Forms / Cannot use Template feature
 
 ## Changes in v0.8.6
 
