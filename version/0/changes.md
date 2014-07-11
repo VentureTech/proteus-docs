@@ -48,6 +48,12 @@ layout: default
 - [PF-659](https://agile.venturetech.net/browse/PF-659) - Form visibility condition
 - [PF-671](https://agile.venturetech.net/browse/PF-671) - Finish work for "Sending emails when form submitted"
 
+## Changes in v0.8.6
+
+### Story
+
+- [PF-698](https://agile.venturetech.net/browse/PF-698) - Forms / Cannot use Template feature
+
 ## Changes in v0.8.5
 
 ### Bug
