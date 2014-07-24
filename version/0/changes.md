@@ -5,6 +5,29 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.9.1
+
+### Bug
+
+- [PF-721](https://agile.venturetech.net/browse/PF-721) - ProteusDataConfig.dataSource using wrong property for DB password
+
+### Improvement
+
+- [PF-713](https://agile.venturetech.net/browse/PF-713) - Update SummaryProvider.getSummary() method to return TextSource. This 
+is an API breaking change.
+
+### Story
+
+- [PF-714](https://agile.venturetech.net/browse/PF-714) - Facebook Login Component doesn't support closed-site use case well
+
+### Misc
+
+- TruncatedTextSource and TextSources.createTruncated were added.
+- Created a PropertyEditor for TextSource. This can be used to define TextSource property values as non-localized text or a 
+LocalizedObjectKey symbol in a spring bean definition.
+- ComboBox was updated to use the cell renderer when disabled.
+- FormElementRegistrations can now make use of @FormElementRegistrationConfig (a spring Qualifier) for auto-wiring.
+
 ## Changes in v0.9.0
 
 ### Bug
@@ -48,6 +71,17 @@ layout: default
 - [PF-659](https://agile.venturetech.net/browse/PF-659) - Form visibility condition
 - [PF-671](https://agile.venturetech.net/browse/PF-671) - Finish work for "Sending emails when form submitted"
 - [PF-698](https://agile.venturetech.net/browse/PF-698) - Forms / Cannot use Template feature
+
+## Changes in v0.8.7
+
+### Bug
+
+- [PF-721](https://agile.venturetech.net/browse/PF-721) - ProteusDataConfig.dataSource using wrong property for DB password
+
+### Story
+
+- [PF-714](https://agile.venturetech.net/browse/PF-714) - Facebook Login Component doesn't support closed-site use case well
+
 
 ## Changes in v0.8.6
 
