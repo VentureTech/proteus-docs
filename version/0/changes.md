@@ -82,6 +82,9 @@ LocalizedObjectKey symbol in a spring bean definition.
 
 - [PF-714](https://agile.venturetech.net/browse/PF-714) - Facebook Login Component doesn't support closed-site use case well
 
+### Misc
+
+- Fixed issue that prevented data templates from showing up in the form editor.
 
 ## Changes in v0.8.6
 
