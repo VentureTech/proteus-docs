@@ -5,6 +5,28 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.9.2
+
+### Bug
+
+- [PF-735](https://agile.venturetech.net/browse/PF-735) - Error thrown for Data Provider extension selection popup when I have a DomainModel Extension library
+- [PF-736](https://agile.venturetech.net/browse/PF-736) - Error thrown when trying to submit form via Form Data management
+- [PF-742](https://agile.venturetech.net/browse/PF-742) - Custom DB Management / Error thrown when trying to edit a database
+- [PF-743](https://agile.venturetech.net/browse/PF-743) - Custom DB Mgmt / Column plugin configuration data not saving
+- [PF-744](https://agile.venturetech.net/browse/PF-744) - Form Package Reorg caused Discriminators in ContentElement Table to be wrong
+- [PF-745](https://agile.venturetech.net/browse/PF-745) - Freemarker Custom DB extension search_count triggers error
+- [PF-751](https://agile.venturetech.net/browse/PF-751) - Component identifiers are too long to be used as preference keys
+
+### Improvement
+
+- [PF-737](https://agile.venturetech.net/browse/PF-737) - Add new option to ParameterUtil.fieldConfigurationBuilder
+
+### Story
+
+- [PF-104](https://agile.venturetech.net/browse/PF-104) - MIWT-CMS integration improvement for creating MIWTApplications
+- [PF-611](https://agile.venturetech.net/browse/PF-611) - Easier way to Integrate MIWT Components into CMS
+
+
 ## Changes in v0.9.1
 
 ### Bug
