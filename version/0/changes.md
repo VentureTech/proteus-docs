@@ -5,6 +5,12 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.9.3
+
+### Improvement
+
+- Merge addition of default property to StringExtra and BooleanExtra from Vipa Suite.
+
 ## Changes in v0.9.2
 
 ### Bug
