@@ -5,6 +5,21 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.9.4
+
+### Technical task
+
+- [PF-757](https://agile.venturetech.net/browse/PF-757) - Convert CmsIconLibrary to spring configuration
+
+### Bug
+
+- [PF-764](https://agile.venturetech.net/browse/PF-764) - communicationContentElement.hbm.xml file not being picked up in scan
+
+### Story
+
+- [PF-767](https://agile.venturetech.net/browse/PF-767) - Need data conversion to rename custom database join tables
+
+
 ## Changes in v0.9.3
 
 ### Improvement
