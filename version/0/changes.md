@@ -5,6 +5,13 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.9.5
+
+### Bug
+
+- [PF-775](https://agile.venturetech.net/browse/PF-775) - Logic error in MIWTSessionLocatorImpl prevents LocaleContext from being set.
+
+
 ## Changes in v0.9.4
 
 ### Technical task
