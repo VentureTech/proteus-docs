@@ -5,6 +5,27 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.10.0
+
+### Bug
+
+- [PF-652](https://agile.venturetech.net/browse/PF-652) - Text link should be disabled if behind dialog
+- [PF-734](https://agile.venturetech.net/browse/PF-734) - Custom DB Data / Importing a CSV does not assign a create or modify user to the records
+- [PF-747](https://agile.venturetech.net/browse/PF-747) - Custom DB Data / Row expressions aren't rendering in related rows
+- [PF-752](https://agile.venturetech.net/browse/PF-752) - Custom DB column plugins don't seem to be using the stored configurations
+- [PF-764](https://agile.venturetech.net/browse/PF-764) - communicationContentElement.hbm.xml file not being picked up in scan
+
+### Improvement
+
+- [PF-748](https://agile.venturetech.net/browse/PF-748) - Custom DB / Column plugin needs ability to choose label domain from dropdown
+- [PF-749](https://agile.venturetech.net/browse/PF-749) - Add static-* hostnames for Proteus QA site (Make configuration part of deployment)
+- [PF-776](https://agile.venturetech.net/browse/PF-776) - Update MIWT popups to handle sizing when they contain rich text editors
+
+### Story
+
+- [PF-777](https://agile.venturetech.net/browse/PF-777) - Update RebuildableSessionFactoryBean so sessionFactoryBuilder is not hardcoded.
+
+
 ## Changes in v0.9.5
 
 ### Bug
