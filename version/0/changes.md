@@ -5,6 +5,13 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+
+## Changes in v0.10.2
+
+### Bug
+
+- [PF-808](https://agile.venturetech.net/browse/PF-808) - NPE in updating subtree state when a component has a visibility condition that isn't satisfied.
+
 ## Changes in v0.10.1
 
 ### Bug
