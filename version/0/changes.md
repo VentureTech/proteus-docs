@@ -5,6 +5,36 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.11.0
+
+### Bug
+
+- [PF-808](https://agile.venturetech.net/browse/PF-808) - NPE in updating subtree state when a component has a visibility condition that isn't satisfied.
+- [PF-860](https://agile.venturetech.net/browse/PF-860) - We wanted hash, but got string (Freemarker template error)
+- [PF-864](https://agile.venturetech.net/browse/PF-864) - Parameter created by ParameterUtil#checkbox is not persisted or restored correctly
+
+### Improvement
+
+- [PF-866](https://agile.venturetech.net/browse/PF-866) - Update LocalizedNamedObject to extend NamedObject.
+- [PF-867](https://agile.venturetech.net/browse/PF-867) - Create new LinkSelector UIs that implement ValueChooserEditor and ValueChooser
+- [PF-868](https://agile.venturetech.net/browse/PF-868) - Create ConverterService
+- [PF-869](https://agile.venturetech.net/browse/PF-869) - UI Component / Add setClassName method.
+- [PF-870](https://agile.venturetech.net/browse/PF-870) - UI PropertyEditor / Create reusable PropertyEditor component that wraps a ValueEditor
+
+### Story
+
+- [PF-774](https://agile.venturetech.net/browse/PF-774) - Add com.i2rd.message API to proteus
+- [PF-791](https://agile.venturetech.net/browse/PF-791) - Port Site Messaging Code to com.i2rd
+- [PF-828](https://agile.venturetech.net/browse/PF-828) - Add support for ResourceServlet alias (additional mapping)
+- [PF-833](https://agile.venturetech.net/browse/PF-833) - Support legacy URL file format based on path
+- [PF-836](https://agile.venturetech.net/browse/PF-836) - WebDav support for tools that delete and add files by name
+- [PF-841](https://agile.venturetech.net/browse/PF-841) - Component Mgt / Single Component Mode
+- [PF-856](https://agile.venturetech.net/browse/PF-856) - Script Parameter / Add explicit collection support.
+- [PF-861](https://agile.venturetech.net/browse/PF-861) - Create Rich Data Type (ModelField Data Type) API
+- [PF-862](https://agile.venturetech.net/browse/PF-862) - Create default CmsModelDataSet data capture implementation
+- [PF-863](https://agile.venturetech.net/browse/PF-863) - Create CmsModelDataSet Data Capture API
+- [PF-865](https://agile.venturetech.net/browse/PF-865) - LocaleContext / Support comparison of NULL TextSources
+
 
 ## Changes in v0.10.2
 

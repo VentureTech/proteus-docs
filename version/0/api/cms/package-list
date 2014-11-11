@@ -12,6 +12,7 @@ net.proteusframework.cms.controller.ckeditor
 net.proteusframework.cms.dao
 net.proteusframework.cms.label
 net.proteusframework.cms.permission
+net.proteusframework.cms.shell
 net.proteusframework.cms.support
 net.proteusframework.email
 net.proteusframework.email.config
