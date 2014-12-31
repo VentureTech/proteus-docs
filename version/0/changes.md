@@ -5,6 +5,36 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.12.0
+
+### Bug
+
+- [PF-691](https://agile.venturetech.net/browse/PF-691) - ZipException in XHTMLEditor.validate
+- [PF-805](https://agile.venturetech.net/browse/PF-805) - Change content type .woff files are stored as
+- [PF-871](https://agile.venturetech.net/browse/PF-871) - Can't Cast FileSystemEntity to FileEntity
+- [PF-873](https://agile.venturetech.net/browse/PF-873) - ListSelectionModel maxSelectionIndex not equal to TableModel.getRowCount() when select all in SearchUI
+
+- [PF-875](https://agile.venturetech.net/browse/PF-875) - Revert unintended HTML Component class name change
+- [PF-877](https://agile.venturetech.net/browse/PF-877) - Unintended ID change for Tab Component
+- [PF-878](https://agile.venturetech.net/browse/PF-878) - Error when trying to check if the request path is a wildcard path
+- [PF-880](https://agile.venturetech.net/browse/PF-880) - PopUp windows missing interior content div
+- [PF-888](https://agile.venturetech.net/browse/PF-888) - Guarded Action Permission Checks Throw Error
+- [PF-890](https://agile.venturetech.net/browse/PF-890) - Ajax updates fail for Double Entry Field
+- [PF-901](https://agile.venturetech.net/browse/PF-901) - BIRT Report can't be scheduled.
+
+### Improvement
+
+- [PF-874](https://agile.venturetech.net/browse/PF-874) - FileSystemMetadata / Update Principal properties to SET_NULL onDelete.
+
+### Story
+
+- [PF-89](https://agile.venturetech.net/browse/PF-89) - EHCache / Caching - Support multiple VMs
+- [PF-842](https://agile.venturetech.net/browse/PF-842) - Component Management / Configurability
+- [PF-843](https://agile.venturetech.net/browse/PF-843) - Component Management / Bulk Delete
+- [PF-844](https://agile.venturetech.net/browse/PF-844) - Component Management / Columns and Parameters for Custom Content
+- [PF-876](https://agile.venturetech.net/browse/PF-876) - Restore reset.css
+- [PF-900](https://agile.venturetech.net/browse/PF-900) - ProteusShell / Change how the dynamic entity rebuild is triggered
+
 ## Changes in v0.11.0
 
 ### Bug
