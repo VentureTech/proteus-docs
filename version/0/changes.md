@@ -5,6 +5,15 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.12.1
+
+### Bug
+
+- [PF-911](https://agile.venturetech.net/browse/PF-911) - legacy conversion, run dynamic entity session factory rebuild, command didn't add back the FK.
+- [PF-912](https://agile.venturetech.net/browse/PF-912) - legacy conversion, update statickeys gets errors
+- [PF-913](https://agile.venturetech.net/browse/PF-913) - BIRT, grid contains a merged cell, engine fails to generate report document
+
+
 ## Changes in v0.12.0
 
 ### Bug
