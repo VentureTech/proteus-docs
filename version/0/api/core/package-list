@@ -23,7 +23,6 @@ net.proteusframework.core.notification
 net.proteusframework.core.prefs
 net.proteusframework.core.script
 net.proteusframework.core.spring
-net.proteusframework.core.spring.config
 net.proteusframework.core.text
 net.proteusframework.core.usertype
 net.proteusframework.core.validation
