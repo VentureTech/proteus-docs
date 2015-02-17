@@ -5,6 +5,25 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.12.2
+
+### Bug
+
+- [PF-903](https://agile.venturetech.net/browse/PF-903) - Fix database updates to NDEList on page render
+- [PF-919](https://agile.venturetech.net/browse/PF-919) - VipaSolutions / HTML Component image not rendering width and height attributes
+- [PF-927](https://agile.venturetech.net/browse/PF-927) - Component Management / Columns and Parameters for CC / Drop Target Problem
+
+### Improvement
+
+- [PF-920](https://agile.venturetech.net/browse/PF-920) - Page Management / Live Edit and Live View buttons have double "btn" class
+- [PF-979](https://agile.venturetech.net/browse/PF-979) - Add CMS API to control session timeout
+
+### Story
+
+- [PF-921](https://agile.venturetech.net/browse/PF-921) - New Site Selector Component Updates for v2 for VIP
+- [PF-982](https://agile.venturetech.net/browse/PF-982) - Capture additional text broken for Radio Button in Forms
+
+
 ## Changes in v0.12.1
 
 ### Bug
