@@ -5,6 +5,16 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.12.3
+
+### Bug
+
+- [PF-992](https://agile.venturetech.net/browse/PF-992) - Freemarker Component / Link Settings / Link's pathInfo is being cached across components
+- [PF-993](https://agile.venturetech.net/browse/PF-993) - HTMLProcessingResolver / Use LinkExternalizer if Request is unavailable
+- [PF-994](https://agile.venturetech.net/browse/PF-994) - FormController / Prohibit multiple calls to init
+- [PF-995](https://agile.venturetech.net/browse/PF-995) - Form Visibility Condition bugs
+- Some SessionFactory cleanup changes to prevent memory leaks.
+
 ## Changes in v0.12.2
 
 ### Bug
