@@ -5,6 +5,49 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.13.0
+
+### Technical task
+
+- [PF-1037](https://agile.venturetech.net/browse/PF-1037) - Configurable model field data capture UI
+- [PF-1038](https://agile.venturetech.net/browse/PF-1038) - Configurable string editor
+- [PF-1039](https://agile.venturetech.net/browse/PF-1039) - Configurable search constraints
+- [PF-1040](https://agile.venturetech.net/browse/PF-1040) - Label field editor (Label data type, result columns, search constraints)
+
+### Bug
+
+- [PF-998](https://agile.venturetech.net/browse/PF-998) - Address Parts not accessible in Form Expressions
+- [PF-1000](https://agile.venturetech.net/browse/PF-1000) - Update address related DomainModels to remove street name and other properties that no longer exist.
+- [PF-1005](https://agile.venturetech.net/browse/PF-1005) - RecurrenceDefinitionQueryString serialization problem
+- [PF-1008](https://agile.venturetech.net/browse/PF-1008) - Can't change order of name parts in a form
+- [PF-1011](https://agile.venturetech.net/browse/PF-1011) - Need access to old form when copying definition
+- [PF-1014](https://agile.venturetech.net/browse/PF-1014) - Closed SessionFactory being referenced by QLBuilder code
+- [PF-1026](https://agile.venturetech.net/browse/PF-1026) - ImageComponent does not output HTML ID attribute
+- [PF-1027](https://agile.venturetech.net/browse/PF-1027) - Invalidation of a Label without attributes is broken.
+- [PF-1030](https://agile.venturetech.net/browse/PF-1030) - Freemarker Component / Model Settings / Custom DB and Custom Content supplier limit setting won't work if there is white space
+- [PF-1034](https://agile.venturetech.net/browse/PF-1034) - MIWT / Label#render trims spaces
+- [PF-1035](https://agile.venturetech.net/browse/PF-1035) - ListComponent loses selection when used in a TabbedContainer
+- [PF-1046](https://agile.venturetech.net/browse/PF-1046) - DeploymentContext.getContext() always return unknown
+
+### Improvement
+
+- [PF-959](https://agile.venturetech.net/browse/PF-959) - Live Edit / Message notification in util.js needs to use the "home server" instead of hard coded
+
+### Story
+
+- [PF-840](https://agile.venturetech.net/browse/PF-840) - Live Edit / Render latest revision
+- [PF-917](https://agile.venturetech.net/browse/PF-917) - Automated Browser Test - Component Mgt
+- [PF-971](https://agile.venturetech.net/browse/PF-971) - Update CMS to generate a Request ID
+- [PF-972](https://agile.venturetech.net/browse/PF-972) - Upgrade to Log4J 2.x
+- [PF-973](https://agile.venturetech.net/browse/PF-973) - Update logs to include an installation name
+- [PF-975](https://agile.venturetech.net/browse/PF-975) - Log statistics to logging server for trend research
+- [PF-976](https://agile.venturetech.net/browse/PF-976) - Update Request Statistics to support logging to a log server
+- [PF-999](https://agile.venturetech.net/browse/PF-999) - Release Version 0.13.0 Of Proteus
+- [PF-1036](https://agile.venturetech.net/browse/PF-1036) - ModelField DataType / Add Label support
+- [PF-1041](https://agile.venturetech.net/browse/PF-1041) - Page Permission / Apply to Folder
+
+
+
 ## Changes in v0.12.3
 
 ### Bug
