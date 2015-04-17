@@ -5,6 +5,27 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.13.1
+
+### Bug
+
+- [PF-1002](https://agile.venturetech.net/browse/PF-1002) - MIWT / dnd.js / some code didn't get updated to not use prototype
+- [PF-1049](https://agile.venturetech.net/browse/PF-1049) - FormRichAddAction / IllegalStateException in EventListenerList
+- [PF-1051](https://agile.venturetech.net/browse/PF-1051) - ScheduledRequestImpl / BeanInfo issue
+- [PF-1058](https://agile.venturetech.net/browse/PF-1058) - EmailTemplateEditor is parsing recipient, originator strings as HTML. It probably shouldn't.
+- [PF-1059](https://agile.venturetech.net/browse/PF-1059) - Forms Data / enhance search model logging exception getting LocaleContext
+- [PF-1060](https://agile.venturetech.net/browse/PF-1060) - Form Management / Form in use message has extra line break
+
+### Improvement
+
+- [PF-1054](https://agile.venturetech.net/browse/PF-1054) - Quiet MIWT DnD logging
+- [PF-1056](https://agile.venturetech.net/browse/PF-1056) - DWExporter / Research if message needs logged at info level
+
+## Story
+
+- [PF-1006](https://agile.venturetech.net/browse/PF-1006) - Add status to PrincipalModelExtension
+
+
 ## Changes in v0.13.0
 
 ### Technical task
