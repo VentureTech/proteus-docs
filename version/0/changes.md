@@ -5,6 +5,46 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.14.0
+
+### Bug
+
+- [PF-989](https://agile.venturetech.net/browse/PF-989) - Characters in HTML encoded that do not need to be
+- [PF-996](https://agile.venturetech.net/browse/PF-996) - Forms / NonUniqueObjectException in FormProcessor#setChoicesAndReserveCapacity
+- [PF-1033](https://agile.venturetech.net/browse/PF-1033) - Custom DB data breaks if schema name has uppercase letters in it
+- [PF-1042](https://agile.venturetech.net/browse/PF-1042) - PageElementModelSupplier $Propery.join(..) causes infinite recursion
+- [PF-1064](https://agile.venturetech.net/browse/PF-1064) - Exclude commons codec from birt runtime.
+- [PF-1069](https://agile.venturetech.net/browse/PF-1069) - Reduce visibility of package-private members of Field
+- [PF-1079](https://agile.venturetech.net/browse/PF-1079) - Forms / Can't configure Report View field
+- [PF-1080](https://agile.venturetech.net/browse/PF-1080) - Make delete dialog message configurable for ActionColumn
+- [PF-1082](https://agile.venturetech.net/browse/PF-1082) - ProFTExcelReader does not handle cell types that are not a string.
+- [PF-1083](https://agile.venturetech.net/browse/PF-1083) - ProftExcelReader does not handle external file paths.
+- [PF-1086](https://agile.venturetech.net/browse/PF-1086) - MailProcessor's email validation fails on valid case of A record with no MX
+- [PF-1089](https://agile.venturetech.net/browse/PF-1089) - Email / EmailTemplateContext#withRecipientAttribute should not assume the Principal has an email address
+- [PF-1097](https://agile.venturetech.net/browse/PF-1097) - Unpublished forms sending pages to 500 errors
+
+### Improvement
+
+- [PF-1052](https://agile.venturetech.net/browse/PF-1052) - Quiet logging in CompositeResource
+- [PF-1078](https://agile.venturetech.net/browse/PF-1078) - Update Link to contain information on whether the link destination supports path info
+- [PF-1092](https://agile.venturetech.net/browse/PF-1092) - Custom Content / Rich Text Configuration default type needs changed
+- [PF-1094](https://agile.venturetech.net/browse/PF-1094) - Add DnD sorting to LabelCollectionEditor
+
+### Story
+
+- [PF-538](https://agile.venturetech.net/browse/PF-538) - Upgrade to version 5.x of CodeMirror
+- [PF-986](https://agile.venturetech.net/browse/PF-986) - Make Site available from DomainModelContext
+- [PF-1043](https://agile.venturetech.net/browse/PF-1043) - PageElementModelSupplier / Add support for searching by ModelDataLabel
+- [PF-1044](https://agile.venturetech.net/browse/PF-1044) - Custom Content / Import label fields doesn't work
+- [PF-1066](https://agile.venturetech.net/browse/PF-1066) - Objection to net.proteusframework.core.hibernate.model.AbstractEntity equals/hashCode
+- [PF-1068](https://agile.venturetech.net/browse/PF-1068) - Page Registry
+- [PF-1076](https://agile.venturetech.net/browse/PF-1076) - URILink missing component id
+- [PF-1085](https://agile.venturetech.net/browse/PF-1085) - Change the default validator URL
+- [PF-1090](https://agile.venturetech.net/browse/PF-1090) - Create Login / Option to capture phone number
+- [PF-1093](https://agile.venturetech.net/browse/PF-1093) - Improve default tree display in some UIs
+- [PF-1098](https://agile.venturetech.net/browse/PF-1098) - Create Login / Add support for email=username
+
+
 ## Changes in v0.13.1
 
 ### Bug
