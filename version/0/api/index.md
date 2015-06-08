@@ -11,6 +11,7 @@ layout: default
 * [Internet](internet)
 * [Data](data)
 * [User Interface](ui)
+* [Testing](testing)
 
 ## Features
 * [Content Management](cms)

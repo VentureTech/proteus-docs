@@ -1,6 +1,11 @@
 net.proteusframework.data.filesystem
 net.proteusframework.ui.column
 net.proteusframework.ui.config
+net.proteusframework.ui.management
+net.proteusframework.ui.management.link
+net.proteusframework.ui.management.nav
+net.proteusframework.ui.management.nav.config
+net.proteusframework.ui.management.nav.destination
 net.proteusframework.ui.miwt
 net.proteusframework.ui.miwt.component
 net.proteusframework.ui.miwt.component.composite
