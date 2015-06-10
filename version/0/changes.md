@@ -33,16 +33,20 @@ layout: default
 ### Story
 
 - [PF-538](https://agile.venturetech.net/browse/PF-538) - Upgrade to version 5.x of CodeMirror
+- [PF-895](https://agile.venturetech.net/browse/PF-895) - Quality Gate before email goes out via SES
+- [PF-896](https://agile.venturetech.net/browse/PF-896) - Common API for Email Sending
+- [PF-897](https://agile.venturetech.net/browse/PF-897) - Automate SES Sender Email Validation Process
+- [PF-899](https://agile.venturetech.net/browse/PF-899) - Email Bounce and Complaint Tracking
 - [PF-986](https://agile.venturetech.net/browse/PF-986) - Make Site available from DomainModelContext
 - [PF-1043](https://agile.venturetech.net/browse/PF-1043) - PageElementModelSupplier / Add support for searching by ModelDataLabel
-- [PF-1044](https://agile.venturetech.net/browse/PF-1044) - Custom Content / Import label fields doesn't work
-- [PF-1066](https://agile.venturetech.net/browse/PF-1066) - Objection to net.proteusframework.core.hibernate.model.AbstractEntity equals/hashCode
-- [PF-1068](https://agile.venturetech.net/browse/PF-1068) - Page Registry
-- [PF-1076](https://agile.venturetech.net/browse/PF-1076) - URILink missing component id
-- [PF-1085](https://agile.venturetech.net/browse/PF-1085) - Change the default validator URL
-- [PF-1090](https://agile.venturetech.net/browse/PF-1090) - Create Login / Option to capture phone number
-- [PF-1093](https://agile.venturetech.net/browse/PF-1093) - Improve default tree display in some UIs
-- [PF-1098](https://agile.venturetech.net/browse/PF-1098) - Create Login / Add support for email=username
+- [PF-1044](https://agile.venturetech.net/browse/PF-1044) - Custom Content / Import label fields doesn't work                                                                                                                                                                  
+- [PF-1066](https://agile.venturetech.net/browse/PF-1066) - Objection to net.proteusframework.core.hibernate.model.AbstractEntity equals/hashCode                                                                                                                              
+- [PF-1068](https://agile.venturetech.net/browse/PF-1068) - Page Registry                                                                                                                                                                                                      
+- [PF-1076](https://agile.venturetech.net/browse/PF-1076) - URILink missing component id                                                                                                                                                                                       
+- [PF-1085](https://agile.venturetech.net/browse/PF-1085) - Change the default validator URL                                                                                                                                                                                   
+- [PF-1090](https://agile.venturetech.net/browse/PF-1090) - Create Login / Option to capture phone number                                                                                                                                                                      
+- [PF-1093](https://agile.venturetech.net/browse/PF-1093) - Improve default tree display in some UIs                                                                                                                                                                           
+- [PF-1098](https://agile.venturetech.net/browse/PF-1098) - Create Login / Add support for email=username 
 
 
 ## Changes in v0.13.1
