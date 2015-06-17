@@ -5,6 +5,18 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.14.3
+
+
+### Bug
+
+- [PF-1105](https://agile.venturetech.net/browse/PF-1105) - Mail Processor is firing errors saying it is getting unexpected error counts
+- [PF-1108](https://agile.venturetech.net/browse/PF-1108) - Form Submit Confirm Text on View Settings not actually setting confirm text
+- [PF-1109](https://agile.venturetech.net/browse/PF-1109) - VerifiedSender SNS Topics can be overridden per Live/QA/Draft/etc
+
+Other miscellaneous fixes related to tracking emails.
+
+
 ## Changes in v0.14.0
 
 ### Bug
