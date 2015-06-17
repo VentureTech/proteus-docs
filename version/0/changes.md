@@ -49,6 +49,13 @@ layout: default
 - [PF-1098](https://agile.venturetech.net/browse/PF-1098) - Create Login / Add support for email=username 
 
 
+## Changes in v0.13.2
+
+### Bug
+
+- [PF-1108](https://agile.venturetech.net/browse/PF-1108) - Form Submit Confirm Text on View Settings not actually setting confirm text
+
+
 ## Changes in v0.13.1
 
 ### Bug
