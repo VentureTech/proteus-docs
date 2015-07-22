@@ -5,6 +5,71 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.15.0
+
+### Summary
+
+- Updated to Java 8.
+- Updated groovy from 2.4.3 to 2.4.4.
+- SeachUI API now allows search actions to be specified.
+- Added doInTransaction(@FunctionalInterface) methods to HibernateSessionHelper.
+- Improved CaptchaType#HARD so it is possible to solve.
+- Added JDBC Interceptor to set the default trigram limit (PostgreSQL).
+- Improved performance of retrieving image dimensions.
+- Switched to a new set of ImageIO plugins to fix PF-1133. This provides greater support for JPEG images as well as some other less common images.
+- Updated Spring configuration to delay initializing Spring Beans that require internet access until they are needed.
+
+
+### Bug
+
+- [PF-639](https://agile.venturetech.net/browse/PF-639) - JCaptcha does not work on Java 8
+- [PF-1099](https://agile.venturetech.net/browse/PF-1099) - ITableScriptable.ATTRIBUTE_TABLE_SCHEMA and ATTRIBUTE_TABLE_NAME are not available
+- [PF-1101](https://agile.venturetech.net/browse/PF-1101) - Fix limitedrecipientdomains regression.
+- [PF-1106](https://agile.venturetech.net/browse/PF-1106) - Mail Processor "rate exceeded" error being thrown
+- [PF-1110](https://agile.venturetech.net/browse/PF-1110) - Amazon Batch Scheduler / Error saying it is exceeding maximum number of entries per request
+- [PF-1114](https://agile.venturetech.net/browse/PF-1114) - Email / Improve error message when sending test email
+- [PF-1116](https://agile.venturetech.net/browse/PF-1116) - Amazon Verified Senders / Notification setup possible case sensitivity error
+- [PF-1117](https://agile.venturetech.net/browse/PF-1117) - New page doesn't show up in page management navigation
+- [PF-1124](https://agile.venturetech.net/browse/PF-1124) - AmazonServiceException in SESUtility
+- [PF-1127](https://agile.venturetech.net/browse/PF-1127) - ProFTPropertyEditor does not handle property fields with multiple inputs (like a button group)
+- [PF-1131](https://agile.venturetech.net/browse/PF-1131) - Issue Tracker / Updating form fields breaks the entire project
+- [PF-1132](https://agile.venturetech.net/browse/PF-1132) - SES log errors non-stop when do not provide credentials
+- [PF-1133](https://agile.venturetech.net/browse/PF-1133) - Error when viewing the attached JPEG image in File System
+- [PF-1137](https://agile.venturetech.net/browse/PF-1137) - FileExtraValueRenderer unnecessarily copies file data into memory.
+
+### Improvement
+
+- [PF-1145](https://agile.venturetech.net/browse/PF-1145) - Freemarker Component / Increase height of freemarker template textarea
+
+### Story
+
+- [PF-964](https://agile.venturetech.net/browse/PF-964) - Port VipaSuite's backend theme to Proteus
+- [PF-1111](https://agile.venturetech.net/browse/PF-1111) - Create GroovyValidator unit tests
+- [PF-1112](https://agile.venturetech.net/browse/PF-1112) - Update file server to not log errors when client closes connection.
+- [PF-1113](https://agile.venturetech.net/browse/PF-1113) - Make sure worker/server information is populated in spring scheduled tasks.
+- [PF-1115](https://agile.venturetech.net/browse/PF-1115) - Cannot Configure User Group Visibility Condition
+- [PF-1119](https://agile.venturetech.net/browse/PF-1119) - Add verbose logging option to ProFT
+- [PF-1120](https://agile.venturetech.net/browse/PF-1120) - ProFTExcelReader can read "phantom" rows from an excel sheet sometimes
+- [PF-1121](https://agile.venturetech.net/browse/PF-1121) - Add support for autowired ProFTBaseTest
+- [PF-1123](https://agile.venturetech.net/browse/PF-1123) - Construct unit tests for ProFT
+- [PF-1125](https://agile.venturetech.net/browse/PF-1125) - BaseProFTTestFace, ProFTBaseTest need to allow for custom subclassed Prefs
+- [PF-1126](https://agile.venturetech.net/browse/PF-1126) - ProFTElement.setSelectOption does not work with combo boxes that have a custom renderer.
+- [PF-1128](https://agile.venturetech.net/browse/PF-1128) - ProFT pre-built selector libraries need to be looked over.
+- [PF-1130](https://agile.venturetech.net/browse/PF-1130) - Add database ID property
+- [PF-1134](https://agile.venturetech.net/browse/PF-1134) - Update CKeditor to version 4.5 or better
+- [PF-1135](https://agile.venturetech.net/browse/PF-1135) - MIWT / Create common interface for class nameable things
+- [PF-1136](https://agile.venturetech.net/browse/PF-1136) - Improve email tracking search
+- [PF-1138](https://agile.venturetech.net/browse/PF-1138) - Distributed Cache Invalidation Tool
+- [PF-1139](https://agile.venturetech.net/browse/PF-1139) - Remove the Form Style Template Feature
+- [PF-1140](https://agile.venturetech.net/browse/PF-1140) - Update CSS standard and ISearch UI with new wrapping div
+- [PF-1141](https://agile.venturetech.net/browse/PF-1141) - HTML changes for the Update Login Bean
+- [PF-1142](https://agile.venturetech.net/browse/PF-1142) - ServletSession - Expose CreateTime and LastAccessTime.
+- [PF-1143](https://agile.venturetech.net/browse/PF-1143) - Move CleanupCruft related shell commands to Proteus if they belong there.
+- [PF-1144](https://agile.venturetech.net/browse/PF-1144) - HTMLPageElementUtil.isUTF8Default is false for application/x-javascript
+- [PF-1146](https://agile.venturetech.net/browse/PF-1146) - Add dc_reorderindexes to DB snapshot
+- [PF-1147](https://agile.venturetech.net/browse/PF-1147) - Cleanup up corrupt EmailAddress data.
+
+
 ## Changes in v0.14.3
 
 
