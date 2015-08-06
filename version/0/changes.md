@@ -5,6 +5,13 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.15.1
+
+### Bug
+
+- [PF-1153](https://agile.venturetech.net/browse/PF-1153) - @Email validation annotation doesn't work
+
+
 ## Changes in v0.15.0
 
 ### Summary
