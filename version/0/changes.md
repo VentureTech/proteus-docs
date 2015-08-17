@@ -5,6 +5,13 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.15.2
+
+### Bug
+
+- [PF-1156](https://agile.venturetech.net/browse/PF-1156) - Pages creating unnecessary anonymous sessions
+
+
 ## Changes in v0.15.1
 
 ### Bug
