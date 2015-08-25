@@ -5,6 +5,14 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.15.3
+
+### Bug
+
+- [PF-1161](https://agile.venturetech.net/browse/PF-1161) - EmailProcessor background task is not running
+- [PF-1162](https://agile.venturetech.net/browse/PF-1162) - MailProviderHandler scheduled task is not running
+
+
 ## Changes in v0.15.2
 
 ### Bug
