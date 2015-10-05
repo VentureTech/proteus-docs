@@ -5,6 +5,19 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.15.4
+
+### Bug
+
+- [PF-1171](https://agile.venturetech.net/browse/PF-1171) - DateRangeConstraint is not inclusive on dates selected
+- [PF-1177](https://agile.venturetech.net/browse/PF-1177) - PermissionDataType incorrectly restricts to AcegiPermission Only
+
+### Story
+
+- [PF-1154](https://agile.venturetech.net/browse/PF-1154) - Update Choice Extras to Allow Selected/Unselected Images
+- [PF-1165](https://agile.venturetech.net/browse/PF-1165) - NavigationAction pops return path when using toReturnPath before actually checking condition if condition is set
+
+
 ## Changes in v0.15.3
 
 ### Bug
