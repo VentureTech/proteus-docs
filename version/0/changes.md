@@ -5,6 +5,21 @@ layout: default
 
 # Version 0 of the Proteus Framework
 
+## Changes in v0.15.5
+
+### Bug
+
+- [PF-1159](https://agile.venturetech.net/browse/PF-1159) - File System / Uploading image files via webdav doesn't update image dimension meta data after first upload
+- [PF-1172](https://agile.venturetech.net/browse/PF-1172) - Email Tracking / ConstraintViolationException in TrackedEmailDAO#clearExpiredEmails
+- [PF-1179](https://agile.venturetech.net/browse/PF-1179) - EHCache, WARN, NotSerializableException, SessionFactorySessionTracker
+- [PF-1180](https://agile.venturetech.net/browse/PF-1180) - ApplicationRegistry.addPropertyValuesToLink does not properly encode property values
+- [PF-1181](https://agile.venturetech.net/browse/PF-1181) - Amazon SES / 400 Error for EmptyBatchRequestException
+
+### Improvement
+
+- [PF-1205](https://agile.venturetech.net/browse/PF-1205) - Update AWSConfig.credentials() to use IAM Role
+
+
 ## Changes in v0.15.4
 
 ### Bug
