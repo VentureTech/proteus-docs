@@ -14,6 +14,10 @@ background-color:#fff;
 nav{
 margin-top:.5em;
 }
+main, nav {
+  margin: 0 auto;
+  width: 50rem;
+}
 .breadcrumb { 
 list-style: none; 
 overflow: hidden; 
@@ -34,4 +38,8 @@ text-decoration:underline;
 
 div.google_custom_search{
 min-height:64px;
+}
+
+header.logo{
+  text-align: center;
 }
