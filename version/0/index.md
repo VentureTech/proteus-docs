@@ -5,7 +5,8 @@ layout: default
 
 # Index
 
-* [Change log] (changes)
+* [Old Change log] (changes)
+* [New Change log] (https://venturetech.atlassian.net/wiki/display/VTDEV/Releases)
 * [Guides] (guides/index)
 * [API Reference] (api)
 
