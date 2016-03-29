@@ -21,6 +21,7 @@ net.proteusframework.core.metric
 net.proteusframework.core.net
 net.proteusframework.core.notification
 net.proteusframework.core.prefs
+net.proteusframework.core.progress
 net.proteusframework.core.script
 net.proteusframework.core.spring
 net.proteusframework.core.text

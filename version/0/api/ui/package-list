@@ -1,4 +1,5 @@
 net.proteusframework.data.filesystem
+net.proteusframework.ui.background
 net.proteusframework.ui.column
 net.proteusframework.ui.config
 net.proteusframework.ui.management
