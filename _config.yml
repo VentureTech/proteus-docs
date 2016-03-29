@@ -1,7 +1,7 @@
-markdown: redcarpet
+markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 breadcrumb_list: [1, 2, 3, 4, 5, 6]
 encoding: utf-8
 
-redcarpet:
+kramdown:
   extensions: [no_intra_emphasis,lax_spacing,highlight,footnotes]
