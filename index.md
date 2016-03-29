@@ -9,11 +9,11 @@ The Proteus Framework is a Java-based web application & website management envir
 
 ## Latest release: 0.16.0
 
-* [API Reference] (version/0/api)
-* [Old Change log] (version/0/changes)
-* [New Change log] (https://venturetech.atlassian.net/wiki/display/VTDEV/Releases)
-* [Misc Documentaiton] (https://venturetech.atlassian.net/wiki/label/VTDEV/proteus)
-* [Q&A] (https://venturetech.atlassian.net/wiki/questions/topics/491532/proteus)
+* [API Reference](version/0/api)
+* [Old Change log](version/0/changes)
+* [New Change log](https://venturetech.atlassian.net/wiki/display/VTDEV/Releases)
+* [Misc Documentaiton](https://venturetech.atlassian.net/wiki/label/VTDEV/proteus)
+* [Q&A](https://venturetech.atlassian.net/wiki/questions/topics/491532/proteus)
 
 ## All versions
-* [All versions] (version)
+* [All versions](version)
