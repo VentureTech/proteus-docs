@@ -17,7 +17,7 @@
 }
 
 @media (max-width:1090px) {
-  #logo {
+  .logo-img {
     max-width: 100px;
   }
 
@@ -51,8 +51,8 @@
  * iPhone width
  **/
 @media (max-width:640px) {
-  #logo {
-    max-width: 75px;
+  .logo-img {
+    max-width: 423px;
   }
 
   #cover-photo-container {
