@@ -51,6 +51,9 @@
  * iPhone width
  **/
 @media (max-width:640px) {
+  main, nav {
+    width: auto;
+  }
   .logo-img {
     max-width: 350px;
   }
