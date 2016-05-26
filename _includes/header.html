@@ -1,7 +1,5 @@
 
-<header class="logo">
 <img class="logo-img" src="/images/Proteus.png" alt="Logo" title="Proteus Framework">
-</header>
 
 {% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
 {% assign num_parts = url_parts | number_of_words | minus: 1  %}
