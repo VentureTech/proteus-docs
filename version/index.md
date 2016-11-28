@@ -4,4 +4,5 @@ layout: default
 ---
 
 # Versions
-* [0.x](0)
+* [0.y.z](0)
+* [1.y.z](1)
