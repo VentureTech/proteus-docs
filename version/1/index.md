@@ -5,6 +5,6 @@ layout: default
 
 # Index
 
-* [Change log](https://venturetech.atlassian.net/wiki/display/VTDEV/Releases)
+* [Change log](https://venturetech.atlassian.net/wiki/x/E4Aq)
 * [API Reference](api)
 

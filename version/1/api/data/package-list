@@ -4,5 +4,6 @@ net.proteusframework.data.filesystem
 net.proteusframework.data.filesystem.http
 net.proteusframework.data.filesystem.nio
 net.proteusframework.data.http
+net.proteusframework.data.locale
 net.proteusframework.data.mail
 net.proteusframework.data.support.xml

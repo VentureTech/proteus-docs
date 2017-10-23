@@ -5,6 +5,7 @@ net.proteusframework.core.cache
 net.proteusframework.core.config
 net.proteusframework.core.freemarker
 net.proteusframework.core.geo
+net.proteusframework.core.gson
 net.proteusframework.core.hibernate
 net.proteusframework.core.hibernate.dao
 net.proteusframework.core.hibernate.model

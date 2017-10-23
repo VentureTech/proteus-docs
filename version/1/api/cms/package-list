@@ -11,6 +11,10 @@ net.proteusframework.cms.controller
 net.proteusframework.cms.controller.ckeditor
 net.proteusframework.cms.dao
 net.proteusframework.cms.label
+net.proteusframework.cms.login.oneall.model
+net.proteusframework.cms.login.oneall.service
+net.proteusframework.cms.login.social.service
+net.proteusframework.cms.login.social.ui
 net.proteusframework.cms.permission
 net.proteusframework.cms.shell
 net.proteusframework.cms.support

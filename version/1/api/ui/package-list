@@ -7,11 +7,13 @@ net.proteusframework.ui.management.link
 net.proteusframework.ui.management.nav
 net.proteusframework.ui.management.nav.config
 net.proteusframework.ui.management.nav.destination
+net.proteusframework.ui.management.xml
 net.proteusframework.ui.miwt
 net.proteusframework.ui.miwt.component
 net.proteusframework.ui.miwt.component.composite
 net.proteusframework.ui.miwt.component.composite.editor
 net.proteusframework.ui.miwt.component.event
+net.proteusframework.ui.miwt.component.template
 net.proteusframework.ui.miwt.data
 net.proteusframework.ui.miwt.data.event
 net.proteusframework.ui.miwt.dnd
