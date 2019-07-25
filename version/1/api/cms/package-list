@@ -4,11 +4,15 @@ net.proteusframework.cms.component
 net.proteusframework.cms.component.content
 net.proteusframework.cms.component.editor
 net.proteusframework.cms.component.generator
+net.proteusframework.cms.component.layout
 net.proteusframework.cms.component.page
 net.proteusframework.cms.component.page.layout
+net.proteusframework.cms.component.saml
 net.proteusframework.cms.config
 net.proteusframework.cms.controller
 net.proteusframework.cms.controller.ckeditor
+net.proteusframework.cms.copy
+net.proteusframework.cms.copy.dao
 net.proteusframework.cms.dao
 net.proteusframework.cms.label
 net.proteusframework.cms.login.oneall.model

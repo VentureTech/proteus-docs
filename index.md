@@ -7,7 +7,7 @@ layout: default
 The Proteus Framework is a Java-based web application & website management environment for rapid product development. The Proteus Framework software development library is specifically designed for the rapid development of lean SaaS products with an open architecture to ensure flexibility for agile iterations and continuous improvements.
 
 
-## Latest release: 1.4.0
+## Latest release: 1.6.0
 
 * [API Reference](version/1/api)
 * [New Change log](https://venturetech.atlassian.net/wiki/x/E4Aq)

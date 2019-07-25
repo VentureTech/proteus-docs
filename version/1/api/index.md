@@ -16,5 +16,6 @@ layout: default
 * [Content Management](cms)
 * [Business Intelligence](communication)
 * [Forms and Business Processes](processes)
+* [Management](management)
 * [Administration](proteusframework)
 

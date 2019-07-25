@@ -1,7 +1,6 @@
 net.proteusframework.internet.config
 net.proteusframework.internet.dataprovider
 net.proteusframework.internet.http
-net.proteusframework.internet.http.captcha
 net.proteusframework.internet.http.resource
 net.proteusframework.internet.http.resource.hibernate.usertype
 net.proteusframework.internet.http.resource.html
@@ -15,3 +14,4 @@ net.proteusframework.internet.servlet.filter.compression
 net.proteusframework.internet.spring
 net.proteusframework.internet.support
 net.proteusframework.internet.support.xml
+net.proteusframework.internet.test

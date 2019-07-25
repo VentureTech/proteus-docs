@@ -9,6 +9,7 @@ net.proteusframework.core.gson
 net.proteusframework.core.hibernate
 net.proteusframework.core.hibernate.dao
 net.proteusframework.core.hibernate.model
+net.proteusframework.core.hibernate.statistics
 net.proteusframework.core.hibernate.transform
 net.proteusframework.core.html
 net.proteusframework.core.image
